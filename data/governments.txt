@@ -16,8 +16,6 @@ government "Ixkek"
 	"attitude toward"
 		"Zyr'c" -10000000000
 		"Pirate" -10000000000
-		"Coalition" -10000000000
-		"Heliarch" -10000000000
 	"bribe" .05
 
 government "Zyr'c"
@@ -28,8 +26,6 @@ government "Zyr'c"
 	"attitude toward"
 		"Ixkek" -10000000000
 		"Pirate" -10000000000
-		"Coalition" -10000000000
-		"Heliarch" -10000000000
 	"bribe" .05
 	
 
