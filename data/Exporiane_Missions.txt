@@ -1,4 +1,4 @@
-# Copyright (c) 2017 by Irex
+# Copyright (c) 2020 by Irex
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -13,8 +13,9 @@ mission "Zyr'c Shipment [0]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>, the home of the Zyr'c. Payment is <payment>."
-	cargo "weapons" 5 2 .1
+	cargo "Zyr'c Cargo" 5 2 .1
 	to offer
+		random < 50
 	source
 		government "Zyr'c"
 	destination
@@ -28,8 +29,9 @@ mission "Zyr'c Shipment [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>, the home of the Zyr'c. Payment is <payment>."
-	cargo "ship alloys" 5 2 .1
+	cargo "Zyr'c Cargo" 5 2 .1
 	to offer
+		random < 50
 	source
 		government "Zyr'c"
 	destination
@@ -38,14 +40,45 @@ mission "Zyr'c Shipment [1]"
 		payment 1000000 2000000
 		dialog phrase "generic cargo delivery payment"
 
+mission "Zyr'c Shipment [3]"
+	name "Shipment to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>, the home of the Zyr'c. Payment is <payment>."
+	cargo "Zyr'c Cargo" 5 2 .1
+	to offer
+		random < 50
+	source
+		government "Zyr'c"
+	destination
+		government "Zyr'c"
+	on complete
+		payment 1000000 2000000
+		dialog phrase "generic cargo delivery payment"
+mission "Zyr'c Shipment [4]"
+	name "Shipment to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>, the home of the Zyr'c. Payment is <payment>."
+	cargo "Zyr'c Cargo" 5 2 .1
+	to offer
+		random < 50
+	source
+		government "Zyr'c"
+	destination
+		government "Zyr'c"
+	on complete
+		payment 1000000 2000000
+		dialog phrase "generic cargo delivery payment"
 
 mission "Ixkek Shipment [0]"
 	name "Shipment to <planet>"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo "weapons" 5 2 .1
+	cargo "Ixkek Cargo" 5 2 .1
 	to offer
+		random < 50
 	source
 		government "Ixkek"
 	destination
@@ -59,8 +92,9 @@ mission "Ixkek Shipment [1]"
 	job
 	repeat
 	description "Deliver <cargo> to <destination>. Payment is <payment>."
-	cargo "ship alloys" 5 2 .1
+	cargo "Ixkek Cargo" 5 2 .1
 	to offer
+		random < 50
 	source
 		government "Ixkek"
 	destination
@@ -69,6 +103,38 @@ mission "Ixkek Shipment [1]"
 		payment 1000000 2000000
 		dialog phrase "generic cargo delivery payment"
 
+
+mission "Ixkek Shipment [3]"
+	name "Shipment to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Ixkek Cargo" 5 2 .1
+	to offer
+		random < 50
+	source
+		government "Ixkek"
+	destination
+		government "Ixkek"
+	on complete
+		payment 1000000 2000000
+		dialog phrase "generic cargo delivery payment"
+
+mission "Ixkek Shipment [4]"
+	name "Shipment to <planet>"
+	job
+	repeat
+	description "Deliver <cargo> to <destination>. Payment is <payment>."
+	cargo "Ixkek Cargo" 5 2 .1
+	to offer
+		random < 50
+	source
+		government "Ixkek"
+	destination
+		government "Ixkek"
+	on complete
+		payment 1000000 2000000
+		dialog phrase "generic cargo delivery payment"
 
 
 mission "Assisting Ixkek (Small)"
@@ -197,10 +263,27 @@ mission "First Contact: Exporianes"
 			`	"Our race was once called the Exporianes. But when we spread through the wormholes two cultures matured. One wanted everything to be pure, original. This was the Zyr'c. The other wanted a perfect, clean, modern society. This was the Ixkek."`
 				goto end
 			label tech2
-			`	"For now you can buy our outfits, but we do not forgive one who attacks us.`
+			`	"For now you can buy our outfits, but we do not forgive one who attacks us. Ever.`
 				goto end
 			label end
 			`The alien leaves, apparently this conversation is over.`
 				decline
+##########################################################################################################################################################################################
 
+mission "Exporiane Wormhole Opens"
+	name "Investigate wormhole"
+	invisible
+	description "Opens the Exporiane Wormhole wormhole - If you see this, there's a problem."
+	destination "Xilia"
+	to offer
+		"combat rating" >= 442414
+		"Sheragi Archaeology: Epilogue: done"
+	on offer
+		event "exp wormhole opens"
 
+event "exp wormhole opens"	
+	system "Zubenelhakrabi"
+		object "Exporiane Wormhole"
+			sprite planet/wormholeblue
+			distance 2079.28
+			period 1700
