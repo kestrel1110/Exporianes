@@ -10,8 +10,8 @@
 
 system A1
 	pos -2615.98 -1227.57
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A16
 	link A3
 	link A6
@@ -55,10 +55,10 @@ system A1
 
 system A10
 	pos -2517.31 -1404.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 1080
 	belt 1047
+	music "ambient/Bereskatuket ES Theme"
 	link A11
 	link A12
 	link A13
@@ -111,10 +111,10 @@ system A10
 
 system A11
 	pos -2448.31 -1350.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 233.28
 	belt 1867
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A13
 	link A18
@@ -150,10 +150,10 @@ system A11
 
 system A12
 	pos -2501.31 -1453.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 806.68
 	belt 1467
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A13
 	link A14
@@ -198,10 +198,10 @@ system A12
 
 system A13
 	pos -2454.31 -1418.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 9126.68
 	belt 1539
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A11
 	link A12
@@ -252,10 +252,10 @@ system A13
 
 system A14
 	pos -2565.31 -1446.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 625
 	belt 1878
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A12
 	link A15
@@ -305,10 +305,10 @@ system A14
 
 system A15
 	pos -2631.31 -1419.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 486.68
 	belt 1881
+	music "ambient/Bereskatuket ES Theme"
 	link A14
 	link A6
 	link A9
@@ -349,10 +349,10 @@ system A15
 
 system A16
 	pos -2510.31 -1202.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 1080
 	belt 1710
+	music "ambient/Bereskatuket ES Theme"
 	link A1
 	link A17
 	link A3
@@ -394,10 +394,10 @@ system A16
 
 system A17
 	pos -2424.31 -1253.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 851.84
 	belt 1903
+	music "ambient/Bereskatuket ES Theme"
 	link A16
 	link A4
 	link A7
@@ -458,10 +458,10 @@ system A17
 
 system A18
 	pos -2392.31 -1373.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 659.2
 	belt 1768
+	music "ambient/Bereskatuket ES Theme"
 	link A11
 	link A13
 	link A7
@@ -518,8 +518,8 @@ system A18
 
 system A2
 	pos -2594.22 -1328.55
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A6
 	link A8
 	link A9
@@ -566,8 +566,8 @@ system A2
 
 system A3
 	pos -2530.1 -1250.79
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A1
 	link A16
 	link A4
@@ -611,8 +611,8 @@ system A3
 
 system A4
 	pos -2480.59 -1272.92
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A11
 	link A16
 	link A17
@@ -657,8 +657,8 @@ system A4
 
 system A5
 	pos -2258.37 -1279.18
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A7
 	link Obliterated
 	trade Clothing 251
@@ -700,8 +700,8 @@ system A5
 
 system A6
 	pos -2655.66 -1332.78
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A1
 	link A15
 	link A2
@@ -745,8 +745,8 @@ system A6
 
 system A7
 	pos -2402.31 -1305.4
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A11
 	link A17
 	link A18
@@ -791,8 +791,8 @@ system A7
 
 system A8
 	pos -2590.31 -1286.05
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A1
 	link A2
 	link A3
@@ -836,10 +836,10 @@ system A8
 
 system A9
 	pos -2581.31 -1393.83
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 858.28
 	belt 1529
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A14
 	link A15
@@ -882,10 +882,10 @@ system A9
 
 system Alpha
 	pos -1549.7 -1793.5
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 486.68
 	belt 1466
+	music "ambient/Bereskatuket ES Theme"
 	link B1
 	link B7
 	link B8
@@ -931,10 +931,57 @@ system Alpha
 			distance 260
 			period 12.2862
 
+system Aska
+	pos -1993.88 -1349.51
+	government Pirate
+	habitable 425.92
+	belt 1868
+	link Jana
+	link Obliterated
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	minables lead 5 3.69067
+	minables silver 6 3.72922
+	fleet "Exporiane Pirate" 1500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rhea
+		distance 126.56
+		period 27.5957
+	object
+		sprite planet/cloud5
+		distance 555.2
+		period 253.554
+		object
+			sprite planet/desert4
+			distance 186
+			period 16.5782
+	object
+		sprite planet/rock13
+		distance 916.01
+		period 537.336
+	object
+		sprite planet/neptune
+		distance 1409.7
+		period 1025.86
+		object
+			sprite planet/luna
+			distance 203
+			period 14.4104
+	object
+		sprite planet/gas16
+		distance 2234.7
+		period 2047.5
+
 system B1
 	pos -1454.92 -1823.22
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link B16
 	link B17
@@ -979,10 +1026,10 @@ system B1
 
 system B10
 	pos -1739.17 -1844.94
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 625
 	belt 1020
+	music "ambient/Bereskatuket ES Theme"
 	link B7
 	link B9
 	asteroids "small rock" 3 6.72
@@ -1036,10 +1083,10 @@ system B10
 
 system B11
 	pos -1753.38 -1696.84
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 945
 	belt 1370
+	music "ambient/Bereskatuket ES Theme"
 	link B6
 	link B7
 	link Ravaged
@@ -1099,10 +1146,10 @@ system B11
 
 system B12
 	pos -1669.34 -1545.17
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 625
 	belt 1595
+	music "ambient/Bereskatuket ES Theme"
 	link B5
 	link B6
 	link Ravaged
@@ -1154,10 +1201,10 @@ system B12
 
 system B13
 	pos -1498.76 -1515.96
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 486.68
 	belt 1694
+	music "ambient/Bereskatuket ES Theme"
 	link B4
 	link B5
 	asteroids "small rock" 78 1.652
@@ -1203,10 +1250,10 @@ system B13
 
 system B14
 	pos -1396.46 -1554.09
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 945
 	belt 1908
+	music "ambient/Bereskatuket ES Theme"
 	link B3
 	link B4
 	asteroids "small rock" 13 3.6784
@@ -1250,10 +1297,10 @@ system B14
 
 system B15
 	pos -1287.23 -1676.8
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 912.6
 	belt 1896
+	music "ambient/Bereskatuket ES Theme"
 	link B2
 	link B3
 	asteroids "small metal" 21 5.664
@@ -1303,10 +1350,10 @@ system B15
 
 system B16
 	pos -1448.59 -1917.38
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 2859.44
 	belt 1479
+	music "ambient/Bereskatuket ES Theme"
 	link B1
 	link B8
 	asteroids "large metal" 1 4.575
@@ -1352,10 +1399,10 @@ system B16
 
 system B17
 	pos -1345.46 -1852.12
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 719.96
 	belt 1800
+	music "ambient/Bereskatuket ES Theme"
 	link B1
 	link B2
 	asteroids "small rock" 116 4.602
@@ -1404,10 +1451,10 @@ system B17
 
 system B18
 	pos -1606.02 -1946.04
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 1566.68
 	belt 1886
+	music "ambient/Bereskatuket ES Theme"
 	link B8
 	link B9
 	asteroids "small rock" 102 1.508
@@ -1468,8 +1515,8 @@ system B18
 
 system B2
 	pos -1375.57 -1745.5
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link B1
 	link B15
 	link B17
@@ -1517,8 +1564,8 @@ system B2
 
 system B3
 	pos -1396.24 -1650.19
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link B14
 	link B15
 	link B2
@@ -1562,8 +1609,8 @@ system B3
 
 system B4
 	pos -1482.43 -1621.55
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link B13
 	link B14
 	link B3
@@ -1608,8 +1655,8 @@ system B4
 
 system B5
 	pos -1575.99 -1592.24
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link B12
 	link B13
 	link B4
@@ -1653,8 +1700,8 @@ system B5
 
 system B6
 	pos -1661.22 -1641.53
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link B11
 	link B12
 	link B5
@@ -1700,8 +1747,8 @@ system B6
 
 system B7
 	pos -1664.42 -1760.39
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link B10
 	link B11
@@ -1746,8 +1793,8 @@ system B7
 
 system B8
 	pos -1536.38 -1877.66
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link B1
 	link B16
@@ -1791,10 +1838,10 @@ system B8
 
 system B9
 	pos -1628.46 -1855.57
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 486.68
 	belt 1753
+	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link B10
 	link B18
@@ -1837,10 +1884,10 @@ system B9
 
 system Beta
 	pos -1574.84 -1692.4
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 320
 	belt 1541
+	music "ambient/Bereskatuket ES Theme"
 	link B4
 	link B5
 	link B6
@@ -1896,8 +1943,8 @@ system Beta
 
 system Clyinayak
 	pos -2524.76 -1328.36
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
+	music "ambient/Bereskatuket ES Theme"
 	link A10
 	link A11
 	link A2
@@ -1948,10 +1995,10 @@ system Clyinayak
 
 system Gamma
 	pos -1469.38 -1722.18
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 1566.68
 	belt 1517
+	music "ambient/Bereskatuket ES Theme"
 	link B1
 	link B2
 	link B3
@@ -2013,12 +2060,78 @@ system Gamma
 			period 42.4825
 			offset 29.0017
 
+system Jana
+	pos -1879.88 -1436.51
+	government Pirate
+	habitable 425.92
+	belt 1326
+	link Aska
+	link Llana
+	asteroids "small rock" 1 3.84
+	asteroids "medium rock" 11 6.96
+	asteroids "large rock" 3 2.544
+	asteroids "small metal" 4 4.368
+	asteroids "medium metal" 4 4.128
+	asteroids "large metal" 4 6.288
+	minables gold 1 9.75669
+	minables lead 3 10.4871
+	minables titanium 3 6.47539
+	fleet "Exporiane Pirate" 1500
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/forest4
+		distance 530.705
+		period 236.96
+		offset 244.119
+		object Inna
+			sprite planet/station3
+			distance 189.872
+			period 23.4398
+			offset 21.9264
+	object
+		sprite planet/gas7
+		distance 2711.43
+		period 2736.49
+		offset 297.928
+	object
+		sprite planet/gas1
+		distance 4266.92
+		period 5402.17
+		offset 63.8581
+		object
+			sprite planet/rock14
+			distance 242
+			period 15.0466
+		object
+			sprite planet/europa
+			distance 358
+			period 27.0732
+	object
+		sprite planet/gas11
+		distance 5245.08
+		period 7362.49
+		offset 11.4469
+		object
+			sprite planet/dust1
+			distance 235
+			period 11.8817
+		object
+			sprite planet/rock7
+			distance 367
+			period 23.1887
+		object
+			sprite planet/desert4
+			distance 477
+			period 34.3602
+
 system Kha'lin'pug
-	pos -1902.28 -1573.54
-	music "ambient/Bereskatuket ES Theme"
+	pos -2168.28 -1752.54
 	government Pug
 	habitable 1080
 	belt 1266
+	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 11 2.0304
 	asteroids "medium rock" 27 2.7216
 	asteroids "large rock" 7 1.9224
@@ -2158,8 +2271,8 @@ system Kha'lin'pug
 
 system Khalchrade
 	pos -1532.47 -1740.64
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
+	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link Beta
 	link Gamma
@@ -2188,13 +2301,60 @@ system Khalchrade
 		distance 1079.28
 		period 17000
 
+system Llana
+	pos -1788.88 -1520.51
+	government Pirate
+	habitable 806.68
+	belt 1900
+	link Jana
+	link Ravaged
+	asteroids "small rock" 3 9.0272
+	asteroids "medium rock" 24 6.6976
+	asteroids "large rock" 9 10.92
+	asteroids "small metal" 9 9.464
+	asteroids "medium metal" 7 7.7896
+	asteroids "large metal" 13 8.1536
+	minables iron 16 12.1333
+	minables lead 1 14.7842
+	fleet "Exporiane Pirate" 1500
+	object
+		sprite star/k0
+		distance 44.429
+		period 16.6931
+		offset 180
+	object
+		sprite star/m0
+		distance 67.571
+		period 16.6931
+	object
+		sprite planet/titan
+		distance 192.381
+		period 37.5796
+	object
+		sprite planet/rock3
+		distance 364.741
+		period 98.1039
+	object
+		sprite planet/desert1
+		distance 912.551
+		period 388.235
+	object
+		sprite planet/gas1
+		distance 2326.44
+		period 1580.33
+		object
+			sprite planet/rock14
+			distance 217
+			period 12.7763
+
 system Obliterated
 	pos -2117.5 -1320.26
-	music "ambient/Bereskatuket ES Theme"
 	government Zyr'c
 	habitable 1000
 	belt 1881
+	music "ambient/Bereskatuket ES Theme"
 	link A5
+	link Aska
 	asteroids "small rock" 44 3.904
 	asteroids "medium rock" 6 4.48
 	asteroids "large rock" 8 3.84
@@ -2217,6 +2377,7 @@ system Obliterated
 	fleet "Ixkek War" 1150
 	fleet "Zyr'c Peace" 1150
 	fleet "Zyr'c War" 1150
+	fleet "Exporiane Pirate" 1500
 	object
 		sprite star/g0
 		period 10
@@ -2251,13 +2412,14 @@ system Obliterated
 
 system Ravaged
 	pos -1740.27 -1616.62
-	music "ambient/Bereskatuket ES Theme"
 	government Ixkek
 	habitable 1000
 	belt 1881
+	music "ambient/Bereskatuket ES Theme"
 	link B11
 	link B12
 	link B6
+	link Llana
 	asteroids "small rock" 44 3.904
 	asteroids "medium rock" 6 4.48
 	asteroids "large rock" 8 3.84
@@ -2280,6 +2442,7 @@ system Ravaged
 	fleet "Ixkek War" 1150
 	fleet "Zyr'c Peace" 1150
 	fleet "Zyr'c War" 1150
+	fleet "Exporiane Pirate" 1500
 	object
 		sprite star/b5
 		period 10
@@ -2313,11 +2476,11 @@ system Ravaged
 		period 1700
 
 system Unknown
-	pos -2029.49 -1464.09
-	music "ambient/Bereskatuket ES Theme"
+	pos -2042.49 -1613.09
 	government Uninhabited
 	habitable 2035
 	belt 1813
+	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 2 1.7204
 	asteroids "medium rock" 78 3.3649
 	asteroids "large rock" 67 1.2903
@@ -2396,11 +2559,11 @@ system Unknown
 		offset 0.980163
 
 system "Unknown "
-	pos -2089.2 -1395.81
-	music "ambient/Bereskatuket ES Theme"
+	pos -2120.2 -1667.81
 	government Uninhabited
 	habitable 1566.68
 	belt 1039
+	music "ambient/Bereskatuket ES Theme"
 	asteroids "small metal" 2 2.4276
 	asteroids "medium metal" 4 2.38
 	asteroids "large metal" 1 3.5224
@@ -2480,11 +2643,11 @@ system "Unknown "
 			period 48.918
 
 system "Unknown  "
-	pos -1976.74 -1540.14
-	music "ambient/Bereskatuket ES Theme"
+	pos -1970.74 -1557.14
 	government Uninhabited
 	habitable 719.96
 	belt 1631
+	music "ambient/Bereskatuket ES Theme"
 	asteroids "small metal" 7 0.9724
 	asteroids "medium metal" 4 1.6082
 	asteroids "large metal" 2 1.4025
@@ -2537,11 +2700,11 @@ system "Unknown  "
 		offset 330.247
 
 system "Unknown    "
-	pos -1824.28 -1604.54
-	music "ambient/Bereskatuket ES Theme"
+	pos -1884.28 -1524.54
 	government Uninhabited
 	habitable 4500
 	belt 1630
+	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 2 4.116
 	asteroids "medium rock" 12 5.208
 	asteroids "large rock" 1 2.646
@@ -2562,9 +2725,9 @@ system "Unknown    "
 		offset 180
 	object Xilia
 		sprite planet/ocean2
-		distance 1628.08
-		period 702.281
-		offset 308.21
+		distance 2205.35
+		period 617.547
+		offset 216.037
 		object
 			sprite planet/ice8
 			distance 154.644
@@ -2587,9 +2750,9 @@ system "Unknown    "
 			offset 217.879
 	object Synth
 		sprite planet/sheragigasgiant
-		distance 7117.78
-		period 6419.67
-		offset 136.34
+		distance 7695.05
+		period 4025.05
+		offset 92.949
 		object
 			sprite planet/dust1
 			distance 660.49
@@ -2821,6 +2984,19 @@ planet Hotel
 	spaceport `The Ixkek stare at you as you walk by, but there is no rudeness meant, just curiosity.`
 	shipyard "Ixkek Small"
 	outfitter Ixkek
+
+planet Inna
+	attributes pirate
+	landscape land/space3
+	description `The station where all Exporiane pirates are based from.`
+	spaceport `They allow you to refuel, simply becuase of the terror you bring to the workers there.`
+	spaceport `	You can tell the hate they have for you.`
+	"required reputation" 10
+	bribe 0.99
+	security 0.02
+	tribute 1.4e+06
+		threshold nan
+		fleet "Exporiane Pirate" 3
 
 planet Ixkek
 	attributes ixkek exporiane
