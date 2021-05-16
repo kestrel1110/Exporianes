@@ -276,7 +276,7 @@ mission "Exporiane Wormhole Opens"
 	description "Opens the Exporiane Wormhole wormhole - If you see this, there's a problem."
 	destination "Xilia"
 	to offer
-		"combat rating" >= 200000				
+		"combat rating" >= 442414				
 		"Sheragi Archaeology: Epilogue: done"
 	on offer
 		event "exp wormhole opens"
