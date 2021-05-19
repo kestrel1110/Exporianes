@@ -1,4 +1,4 @@
-# Copyright (c) 2018 by Irex
+# Copyright (c) 2021 by Bereskatuket (kestrel1110)
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -87,12 +87,15 @@ outfit "Zyr'c Missile Launcher"
 		ammo "Zyr'c Missile"
 		icon "icon/wep8"
 		"fire effect" "meteor fire"
-		"die effect" "missile death"
+		"fire effect" "emp torpedo fire" 2
+		"die effect" "pug medium explosion"
 		"hit effect" "missile hit"
+		"hit effect" "emp spark" 20
+		"fire effect" "finisher sparks" 3
 		"inaccuracy" 0
-		"velocity" 11
-		"lifetime" 490000
-		"reload" 2
+		"velocity" 110
+		"lifetime" 1200
+		"reload" 1.75
 		"firing energy" 1
 		"firing heat" 20
 		"acceleration" 1
@@ -100,9 +103,9 @@ outfit "Zyr'c Missile Launcher"
 		"turn" 1.35
 		"homing" 3
 		"infrared tracking" .8
-		"shield damage" 260
-		"hull damage" 160
-		"hit force" 220
+		"shield damage" 1360
+		"hull damage" 960
+		"hit force" -220
 		"missile strength" 20
 outfit "Zyr'c Light Laser Turret"
 	category "Turrets"
