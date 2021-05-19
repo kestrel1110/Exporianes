@@ -1211,3 +1211,20 @@ fleet "Exporiane Pirate"
 		"klek 3500" 2
 		"klek 3000" 4
 		"klek 2500" 6
+
+
+
+
+fleet "Ixkek Guardian"
+	government "Ixkek"
+	names "ixkek"
+	personality
+		disables heroic opportunistic
+	variant 2
+		"seneca 3500" 2
+	variant 3
+		"seneca 3500" 3
+	variant 4
+		"seneca 3500" 4
+	variant 5
+		"seneca 3500" 5
