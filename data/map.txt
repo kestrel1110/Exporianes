@@ -8,155 +8,23 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-system A1
-	pos -2615.98 -1227.57
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A16
-	link A3
-	link A6
-	link A8
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	fleet "Ixkek War" 1000
-	object
-		sprite star/a5
-		period 10
-	object 1
-		sprite planet/rock4
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
+galaxy "Exporiane Galaxy"
+	pos -24000 -24000
+	sprite ui/galaxy2
 
-system A10
-	pos -2517.31 -1404.83
-	government Zyr'c
-	habitable 1080
-	belt 1047
-	music "ambient/Bereskatuket ES Theme"
-	link A11
-	link A12
-	link A13
-	link A14
-	link A9
-	link Clyinayak
-	asteroids "small rock" 1 3.09
-	asteroids "medium rock" 4 1.92
-	asteroids "large rock" 16 4.02
-	asteroids "small metal" 4 2.73
-	asteroids "medium metal" 12 2.73
-	asteroids "large metal" 24 1.5
-	minables silver 1 2.88989
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/rock7
-		distance 727.327
-		period 238.75
-		offset 251.52
-	object
-		sprite planet/ice1
-		distance 1241.94
-		period 532.722
-		offset 79.7982
-	object
-		sprite planet/gas10
-		distance 2575.43
-		period 1590.83
-		offset 133.663
-		object
-			sprite planet/desert4
-			distance 179
-			period 12.606
-		object
-			sprite planet/dust0
-			distance 291
-			period 26.1298
-		object
-			sprite planet/rock3
-			distance 450
-			period 50.2477
-		object
-			sprite planet/dust5
-			distance 549
-			period 67.7104
+galaxy "Milky Way"
+	pos 0 0
+	sprite og_res/ui/galaxy
 
-system A11
-	pos -2448.31 -1350.83
-	government Zyr'c
-	habitable 233.28
-	belt 1867
-	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A13
-	link A18
-	link A4
-	link A7
-	link Clyinayak
-	asteroids "large metal" 1 6.8817
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/m4
-		period 10
-	object
-		sprite planet/rock8
-		distance 227.09
-		period 89.6227
-	object
-		sprite planet/rock13
-		distance 568.38
-		period 354.878
-	object
-		sprite planet/rock7
-		distance 881.63
-		period 685.568
-	object
-		sprite planet/gas17
-		distance 1136.12
-		period 1002.9
-	object
-		sprite planet/gas16
-		distance 3058.16
-		period 4429.06
-
-system A12
-	pos -2501.31 -1453.83
+system Acanaht
+	pos -24252.1 -24150.8
 	government Zyr'c
 	habitable 806.68
 	belt 1467
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A13
-	link A14
+	link Dhakei
+	link Vsenn
 	asteroids "small rock" 1 2.3562
 	asteroids "medium rock" 29 3.2487
 	asteroids "large rock" 4 5.3193
@@ -196,122 +64,15 @@ system A12
 			distance 211
 			period 16.3155
 
-system A13
-	pos -2454.31 -1418.83
-	government Zyr'c
-	habitable 9126.68
-	belt 1539
-	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A11
-	link A12
-	link A18
-	asteroids "large rock" 1 2.22
-	asteroids "medium metal" 2 0.87
-	asteroids "large metal" 2 0.885
-	minables lead 1 1.19413
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/b5
-		distance 7.83877
-		period 7.46242
-		offset 180
-	object
-		sprite star/k0
-		distance 139.161
-		period 7.46242
-	object
-		sprite planet/rock1
-		distance 319.251
-		period 23.8837
-	object
-		sprite planet/rock12
-		distance 546.211
-		period 53.4496
-	object
-		sprite planet/rock5
-		distance 1173.85
-		period 168.393
-	object
-		sprite planet/uranus
-		distance 1565.61
-		period 259.376
-		object
-			sprite planet/dust4
-			distance 234
-			period 15.2932
-	object
-		sprite planet/jupiter
-		distance 4198.62
-		period 1139.1
-		object
-			sprite planet/ice0
-			distance 236
-			period 11.3928
-
-system A14
-	pos -2565.31 -1446.83
-	government Zyr'c
-	habitable 625
-	belt 1878
-	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A12
-	link A15
-	link A9
-	asteroids "small rock" 16 2.552
-	asteroids "medium rock" 5 1.8656
-	asteroids "large rock" 3 2.2528
-	asteroids "small metal" 50 1.8656
-	asteroids "medium metal" 2 1.0912
-	asteroids "large metal" 5 0.9152
-	minables iron 11 3.60032
-	minables neodymium 1 3.74177
-	minables silver 19 3.68945
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/rhea
-		distance 118.09
-		period 20.5324
-	object
-		sprite planet/desert1
-		distance 481.33
-		period 168.96
-	object
-		sprite planet/rock13
-		distance 1070.97
-		period 560.772
-	object
-		sprite planet/rock7
-		distance 1231.21
-		period 691.223
-	object
-		sprite planet/lava5
-		distance 1379.7
-		period 819.968
-	object
-		sprite planet/gas2
-		distance 6639.7
-		period 8656.51
-		object
-			sprite planet/rock0
-			distance 207
-			period 18.0456
-
-system A15
-	pos -2631.31 -1419.83
+system Alacana
+	pos -24440.6 -23846.8
 	government Zyr'c
 	habitable 486.68
 	belt 1881
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link A14
-	link A6
-	link A9
+	link Mehen'le
+	link Sayen
 	asteroids "small rock" 2 3.56
 	asteroids "medium rock" 1 5.96
 	asteroids "large rock" 1 4.04
@@ -319,6 +80,7 @@ system A15
 	asteroids "large metal" 1 4.92
 	fleet "Zyr'c Peace" 500
 	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 2000
 	object
 		sprite star/k0
 		period 10
@@ -347,550 +109,16 @@ system A15
 			distance 358
 			period 35.6551
 
-system A16
-	pos -2510.31 -1202.83
-	government Zyr'c
-	habitable 1080
-	belt 1710
-	music "ambient/Bereskatuket ES Theme"
-	link A1
-	link A17
-	link A3
-	link A4
-	asteroids "small rock" 24 8.1
-	asteroids "medium rock" 42 11.1
-	asteroids "large rock" 5 10.35
-	asteroids "small metal" 2 9.15
-	asteroids "medium metal" 8 9.225
-	asteroids "large metal" 22 11.175
-	minables gold 4 12.4812
-	minables silicon 1 19.2725
-	minables silver 8 15.1019
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/lava5
-		distance 225.21
-		period 41.1367
-	object
-		sprite planet/cloud7
-		distance 458.82
-		period 119.622
-	object
-		sprite planet/cloud5
-		distance 737.07
-		period 243.563
-	object
-		sprite planet/jupiter
-		distance 2160.71
-		period 1222.48
-		object
-			sprite planet/dust4
-			distance 267
-			period 13.7097
-
-system A17
-	pos -2424.31 -1253.83
-	government Zyr'c
-	habitable 851.84
-	belt 1903
-	music "ambient/Bereskatuket ES Theme"
-	link A16
-	link A4
-	link A7
-	asteroids "small rock" 14 2.21
-	asteroids "medium rock" 82 3.0056
-	asteroids "large rock" 13 1.989
-	asteroids "small metal" 12 2.1216
-	asteroids "medium metal" 34 1.2597
-	asteroids "large metal" 6 1.326
-	minables titanium 6 3.42258
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/k5
-		distance 43.5
-		period 11.1214
-		offset 180
-	object
-		sprite star/k5
-		distance 43.5
-		period 11.1214
-	object
-		sprite planet/desert6
-		distance 201.31
-		period 39.1452
-	object
-		sprite planet/gas12
-		distance 742.72
-		period 277.408
-		object
-			sprite planet/dust4
-			distance 314
-			period 14.6143
-	object
-		sprite planet/gas13
-		distance 1449.01
-		period 755.941
-		object
-			sprite planet/io
-			distance 259
-			period 11.7668
-	object
-		sprite planet/gas7
-		distance 2794.02
-		period 2024.07
-		object
-			sprite planet/rhea
-			distance 260
-			period 14.9139
-		object
-			sprite planet/callisto
-			distance 414
-			period 29.9662
-		object
-			sprite planet/rock7
-			distance 572
-			period 48.6659
-
-system A18
-	pos -2392.31 -1373.83
-	government Zyr'c
-	habitable 659.2
-	belt 1768
-	music "ambient/Bereskatuket ES Theme"
-	link A11
-	link A13
-	link A7
-	asteroids "small rock" 10 3.0744
-	asteroids "medium rock" 95 2.6712
-	asteroids "large rock" 2 1.764
-	asteroids "small metal" 1 3.2004
-	asteroids "medium metal" 57 1.512
-	asteroids "large metal" 60 3.4272
-	minables aluminum 6 2.62762
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/k5
-		distance 37.8655
-		period 17.2436
-	object
-		sprite star/m4
-		distance 69.1345
-		period 17.2436
-		offset 180
-	object
-		sprite planet/rock12
-		distance 276.894
-		period 71.7832
-	object
-		sprite planet/ganymede
-		distance 485.984
-		period 166.911
-	object
-		sprite planet/dust0
-		distance 666.394
-		period 268.008
-	object
-		sprite planet/forest1
-		distance 953.084
-		period 458.404
-	object
-		sprite planet/jupiter
-		distance 2434.37
-		period 1871.25
-		object
-			sprite planet/europa
-			distance 268
-			period 13.7868
-		object
-			sprite planet/dust7
-			distance 382
-			period 23.4616
-		object
-			sprite planet/dust1
-			distance 541
-			period 39.5419
-
-system A2
-	pos -2594.22 -1328.55
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A6
-	link A8
-	link A9
-	link Clyinayak
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/b5
-		period 10
-	object 2
-		sprite planet/station7
-		distance 100
-		period 8
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A3
-	pos -2530.1 -1250.79
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A1
-	link A16
-	link A4
-	link A8
-	link Clyinayak
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/blue
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/dust1
-			distance 229
-			period 12.994
-			object 3
-				sprite planet/station4
-				distance 394
-				period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A4
-	pos -2480.59 -1272.92
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A11
-	link A16
-	link A17
-	link A3
-	link A7
-	link Clyinayak
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/brown
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object 4
-			sprite planet/station2
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A5
-	pos -2258.37 -1279.18
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A7
-	link Obliterated
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	fleet "Ixkek War" 500
-	object
-		sprite star/f0
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object 5
-			sprite planet/station2
-			distance 229
-			period 12.994
-	object
-		sprite planet/dust1
-		distance 394
-		period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A6
-	pos -2655.66 -1332.78
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A1
-	link A15
-	link A2
-	link A8
-	link A9
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object 6
-		sprite planet/earth-b
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-	object
-		sprite star/f5
-		period 10
-
-system A7
-	pos -2402.31 -1305.4
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A11
-	link A17
-	link A18
-	link A4
-	link A5
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	fleet "Ixkek War" 1000
-	object
-		sprite star/g0
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object 7
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A8
-	pos -2590.31 -1286.05
-	government Zyr'c
-	music "ambient/Bereskatuket ES Theme"
-	link A1
-	link A2
-	link A3
-	link A6
-	link Clyinayak
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object 8
-			sprite planet/desert3-b
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system A9
-	pos -2581.31 -1393.83
-	government Zyr'c
-	habitable 858.28
-	belt 1529
-	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A14
-	link A15
-	link A2
-	link A6
-	link Clyinayak
-	asteroids "large rock" 5 4.52
-	asteroids "small metal" 32 3.28
-	asteroids "medium metal" 69 5.36
-	asteroids "large metal" 39 2.92
-	minables lead 13 7.04026
-	minables platinum 7 4.57406
-	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/g5
-		distance 24.1901
-		period 11.4639
-	object
-		sprite star/m4
-		distance 64.8099
-		period 11.4639
-		offset 180
-	object
-		sprite planet/lava2
-		distance 183.81
-		period 34.025
-	object
-		sprite planet/venus
-		distance 446.62
-		period 128.87
-	object
-		sprite planet/gas13
-		distance 1220.62
-		period 582.259
-	object
-		sprite planet/gas14
-		distance 1891.83
-		period 1123.49
-
 system Alpha
-	pos -1549.7 -1793.5
+	pos -23639.5 -24091
 	government Ixkek
 	habitable 486.68
 	belt 1466
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B1
-	link B7
-	link B8
-	link B9
+	link Beta
 	link Khalchrade
+	link Xinu
 	asteroids "large metal" 1 8.9102
 	fleet "Ixkek Peace" 500
 	fleet "Ixkek War" 1000
@@ -931,63 +159,71 @@ system Alpha
 			distance 260
 			period 12.2862
 
-system Aska
-	pos -1993.88 -1349.51
-	government Pirate
-	habitable 425.92
-	belt 1868
-	link Jana
-	link Obliterated
-	asteroids "medium rock" 2 1.4756
-	asteroids "large rock" 1 1.9754
-	asteroids "small metal" 2 3.3796
-	asteroids "medium metal" 15 2.023
-	asteroids "large metal" 1 2.9512
-	minables lead 5 3.69067
-	minables silver 6 3.72922
-	fleet "Exporiane Pirate" 1500
-	object
-		sprite star/k5
-		period 10
-	object
-		sprite planet/rhea
-		distance 126.56
-		period 27.5957
-	object
-		sprite planet/cloud5
-		distance 555.2
-		period 253.554
-		object
-			sprite planet/desert4
-			distance 186
-			period 16.5782
-	object
-		sprite planet/rock13
-		distance 916.01
-		period 537.336
-	object
-		sprite planet/neptune
-		distance 1409.7
-		period 1025.86
-		object
-			sprite planet/luna
-			distance 203
-			period 14.4104
-	object
-		sprite planet/gas16
-		distance 2234.7
-		period 2047.5
-
-system B1
-	pos -1454.92 -1823.22
+system Beta
+	pos -23642.3 -23973.7
 	government Ixkek
+	habitable 320
+	belt 1541
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	link Alpha
-	link B16
-	link B17
-	link B2
-	link B8
-	link Gamma
+	link Khalchrade
+	link Khazama
+	asteroids "medium rock" 1 5.9616
+	asteroids "large rock" 1 4.4928
+	asteroids "small metal" 5 6.3072
+	asteroids "medium metal" 5 4.0176
+	asteroids "large metal" 11 3.8016
+	minables aluminum 5 4.52625
+	minables iron 1 5.11349
+	minables titanium 1 4.76115
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas17
+		distance 340.196
+		period 140.307
+		offset 337.172
+	object
+		sprite planet/rock1
+		distance 965.556
+		period 670.89
+		offset 128.993
+		object
+			sprite planet/lava0
+			distance 166
+			period 24.87
+	object
+		sprite planet/gas3
+		distance 1605.32
+		period 1438.22
+		offset 33.8771
+	object
+		sprite planet/gas1
+		distance 2427.61
+		period 2674.56
+		offset 11.6622
+		object
+			sprite planet/ice7
+			distance 260
+			period 16.7562
+		object Duo
+			sprite planet/dust3
+			distance 365.108
+			period 27.8835
+			offset 235.577
+
+system Blen'uw
+	pos -24673.8 -23775.7
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Ent'ahi
+	link Onuh'ja'husa
 	trade Clothing 251
 	trade Electronics 831
 	trade Equipment 469
@@ -998,17 +234,17 @@ system B1
 	trade Medical 777
 	trade Metal 520
 	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
 	object
-		sprite star/a0
+		sprite star/brown
 		period 10
-	object Alpha
-		sprite planet/rock4
+	object
+		sprite planet/gas9
 		distance 1811.79
 		period 1129.48
-		object
-			sprite planet/lava0
+		object 4
+			sprite planet/station2
 			distance 229
 			period 12.994
 		object
@@ -1024,439 +260,71 @@ system B1
 			distance 684
 			period 67.0771
 
-system B10
-	pos -1739.17 -1844.94
+system Cana
+	pos -23716.9 -24325.8
 	government Ixkek
-	habitable 625
-	belt 1020
+	habitable 5486.68
+	belt 1363
+	link Jana
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B7
-	link B9
-	asteroids "small rock" 3 6.72
-	asteroids "medium rock" 48 9.4752
-	asteroids "large rock" 6 5.9808
-	asteroids "small metal" 17 7.8624
-	asteroids "medium metal" 51 5.7792
-	asteroids "large metal" 32 3.5616
-	minables titanium 24 11.0488
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
+	asteroids "small rock" 38 1.287
+	asteroids "medium rock" 52 1.8486
+	asteroids "large rock" 1 1.3104
+	asteroids "small metal" 5 1.17
+	asteroids "medium metal" 9 2.106
+	asteroids "large metal" 40 1.7082
+	minables iron 11 3.26843
+	minables silicon 8 2.59129
+	fleet "Exporiane Pirate" 2500
 	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/lava5
-		distance 229.36
-		period 55.5772
-	object
-		sprite planet/uranus
-		distance 740.65
-		period 322.507
-		object
-			sprite planet/io
-			distance 204
-			period 12.4485
-		object
-			sprite planet/dust7
-			distance 353
-			period 28.3358
-	object
-		sprite planet/rock19
-		distance 1606.09
-		period 1029.85
-	object
-		sprite planet/gas5
-		distance 2534.58
-		period 2041.64
-		object
-			sprite planet/luna
-			distance 242
-			period 12.519
-		object
-			sprite planet/rock14
-			distance 372
-			period 23.8595
-		object
-			sprite planet/desert4
-			distance 527
-			period 40.2312
-
-system B11
-	pos -1753.38 -1696.84
-	government Ixkek
-	habitable 945
-	belt 1370
-	music "ambient/Bereskatuket ES Theme"
-	link B6
-	link B7
-	link Ravaged
-	asteroids "small rock" 5 5.2164
-	asteroids "medium rock" 5 6.0536
-	asteroids "large rock" 3 5.0232
-	asteroids "small metal" 6 9.5956
-	asteroids "medium metal" 7 6.6976
-	asteroids "large metal" 7 5.8604
-	minables lead 1 10.7924
-	minables silver 1 11.6994
-	minables titanium 1 11.5088
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	fleet "Zyr'c War" 500
-	object
-		sprite star/g5
-		distance 36.2328
-		period 14.4019
-		offset 180
-	object
-		sprite star/m0
-		distance 70.7672
-		period 14.4019
-	object
-		sprite planet/ice0
-		distance 200.807
-		period 37.0265
-	object
-		sprite planet/desert3
-		distance 376.047
-		period 94.8872
-	object
-		sprite planet/desert10
-		distance 727.887
-		period 255.529
-		object
-			sprite planet/dust0
-			distance 137
-			period 16.4168
-	object
-		sprite planet/rhea
-		distance 1465.5
-		period 729.998
-	object
-		sprite planet/gas9
-		distance 3094.46
-		period 2239.86
-		object
-			sprite planet/callisto
-			distance 274
-			period 17.0066
-		object
-			sprite planet/io
-			distance 371
-			period 26.7948
-
-system B12
-	pos -1669.34 -1545.17
-	government Ixkek
-	habitable 625
-	belt 1595
-	music "ambient/Bereskatuket ES Theme"
-	link B5
-	link B6
-	link Ravaged
-	asteroids "small rock" 1 3.894
-	asteroids "medium rock" 44 1.815
-	asteroids "large rock" 31 4.026
-	asteroids "small metal" 8 3.267
-	asteroids "medium metal" 1 2.211
-	asteroids "large metal" 1 1.848
-	minables silver 2 2.85118
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	fleet "Zyr'c War" 500
-	object
-		sprite star/g5
-		period 10
-	object
-		sprite planet/dust2
-		distance 128.25
-		period 23.2384
-	object
-		sprite planet/uranus
-		distance 584.89
-		period 226.324
-	object
-		sprite planet/gas7
-		distance 1353.53
-		period 796.75
-		object
-			sprite planet/ice7
-			distance 262
-			period 15.0863
-		object
-			sprite planet/desert4
-			distance 407
-			period 29.2094
-		object
-			sprite planet/dust5
-			distance 500
-			period 39.7727
-	object
-		sprite planet/jupiter
-		distance 2271.53
-		period 1732.2
-		object
-			sprite planet/rock3
-			distance 275
-			period 14.3305
-
-system B13
-	pos -1498.76 -1515.96
-	government Ixkek
-	habitable 486.68
-	belt 1694
-	music "ambient/Bereskatuket ES Theme"
-	link B4
-	link B5
-	asteroids "small rock" 78 1.652
-	asteroids "medium rock" 26 1.19
-	asteroids "large rock" 27 2.044
-	asteroids "small metal" 11 1.316
-	asteroids "medium metal" 13 0.98
-	asteroids "large metal" 14 0.952
-	minables gold 20 2.9983
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
+		sprite star/a0
+		distance 12.7731
+		period 9.33145
 	object
 		sprite star/k0
-		period 10
-	object
-		sprite planet/mars
-		distance 327.56
-		period 107.492
-		object
-			sprite planet/rock0
-			distance 147
-			period 23.8194
-	object
-		sprite planet/cloud4
-		distance 660.4
-		period 307.715
-	object
-		sprite planet/rock13
-		distance 1227.76
-		period 780.025
-		object
-			sprite planet/rhea
-			distance 176
-			period 29.3516
-	object
-		sprite planet/gas6
-		distance 2416.92
-		period 2154.43
-		object
-			sprite planet/dust0
-			distance 287
-			period 12.419
-
-system B14
-	pos -1396.46 -1554.09
-	government Ixkek
-	habitable 945
-	belt 1908
-	music "ambient/Bereskatuket ES Theme"
-	link B3
-	link B4
-	asteroids "small rock" 13 3.6784
-	asteroids "medium rock" 33 5.6628
-	asteroids "large rock" 30 5.566
-	asteroids "small metal" 1 4.598
-	asteroids "medium metal" 1 6.3888
-	asteroids "large metal" 11 4.2592
-	minables lead 1 6.9959
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/g5
-		distance 30.1376
-		period 10.9252
-	object
-		sprite star/m0
-		distance 58.8624
-		period 10.9252
+		distance 131.227
+		period 9.33145
 		offset 180
 	object
-		sprite planet/rock11
-		distance 184.502
-		period 32.6097
+		sprite planet/cloud1
+		distance 353.227
+		period 35.8497
 	object
-		sprite planet/desert5
-		distance 381.742
-		period 97.0509
+		sprite planet/cloud3
+		distance 713.227
+		period 102.86
+		object
+			sprite planet/oberon
+			distance 166
+			period 23.5177
 	object
 		sprite planet/gas13
-		distance 898.992
-		period 350.734
+		distance 1198.67
+		period 224.106
 	object
-		sprite planet/ice7
-		distance 1400.63
-		period 682.072
-	object
-		sprite planet/gas10
-		distance 2292.12
-		period 1427.91
+		sprite planet/gas3
+		distance 1998.03
+		period 482.289
+		object
+			sprite planet/dust1
+			distance 312
+			period 14.0766
+		object
+			sprite planet/io
+			distance 422
+			period 22.1428
 
-system B15
-	pos -1287.23 -1676.8
-	government Ixkek
-	habitable 912.6
-	belt 1896
-	music "ambient/Bereskatuket ES Theme"
-	link B2
-	link B3
-	asteroids "small metal" 21 5.664
-	asteroids "medium metal" 20 3.888
-	asteroids "large metal" 16 6.144
-	minables iron 20 5.83288
-	minables titanium 1 9.27464
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/k0
-		distance 42.9374
-		period 11.6843
-		offset 180
-	object
-		sprite star/k5
-		distance 49.0626
-		period 11.6843
-	object
-		sprite planet/ice1
-		distance 220.313
-		period 43.2991
-	object
-		sprite planet/rock12
-		distance 516.313
-		period 155.342
-	object
-		sprite planet/earth
-		distance 1330.92
-		period 642.908
-		object
-			sprite planet/rock17
-			distance 172
-			period 23.094
-	object
-		sprite planet/gas4
-		distance 2110.81
-		period 1284.09
-		object
-			sprite planet/dust7
-			distance 252
-			period 14.1091
-		object
-			sprite planet/dust3
-			distance 356
-			period 23.6904
-
-system B16
-	pos -1448.59 -1917.38
-	government Ixkek
-	habitable 2859.44
-	belt 1479
-	music "ambient/Bereskatuket ES Theme"
-	link B1
-	link B8
-	asteroids "large metal" 1 4.575
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/f0
-		distance 23.4878
-		period 12.1266
-		offset 180
-	object
-		sprite star/k0
-		distance 114.512
-		period 12.1266
-	object
-		sprite planet/lava2
-		distance 237.512
-		period 27.3809
-	object
-		sprite planet/io
-		distance 376.072
-		period 54.554
-	object
-		sprite planet/ice8
-		distance 748.712
-		period 153.247
-	object
-		sprite planet/rock2
-		distance 989.272
-		period 232.752
-	object
-		sprite planet/gas2
-		distance 2676.91
-		period 1036.03
-		object
-			sprite planet/oberon
-			distance 203
-			period 17.525
-		object
-			sprite planet/ice7
-			distance 338
-			period 37.6521
-
-system B17
-	pos -1345.46 -1852.12
-	government Ixkek
-	habitable 719.96
-	belt 1800
-	music "ambient/Bereskatuket ES Theme"
-	link B1
-	link B2
-	asteroids "small rock" 116 4.602
-	asteroids "medium rock" 111 4.368
-	asteroids "large rock" 1 7.644
-	asteroids "small metal" 3 5.226
-	asteroids "medium metal" 1 6.24
-	asteroids "large metal" 3 5.616
-	minables iron 6 7.74116
-	minables tungsten 32 7.92246
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/k0
-		distance 30.4577
-		period 13.5862
-		offset 180
-	object
-		sprite star/m4
-		distance 63.5423
-		period 13.5862
-	object
-		sprite planet/venus
-		distance 256.432
-		period 61.216
-	object
-		sprite planet/gas10
-		distance 732.042
-		period 295.264
-		object
-			sprite planet/oberon
-			distance 176
-			period 12.2904
-	object
-		sprite planet/mars
-		distance 1462.05
-		period 833.394
-	object
-		sprite planet/gas9
-		distance 2253.21
-		period 1594.44
-		object
-			sprite planet/rock7
-			distance 221
-			period 12.3191
-
-system B18
-	pos -1606.02 -1946.04
+system Chah
+	pos -23828.3 -23795
 	government Ixkek
 	habitable 1566.68
 	belt 1886
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B8
-	link B9
+	link Iotam
+	link Mii
+	link Nha
 	asteroids "small rock" 102 1.508
 	asteroids "medium rock" 13 2.106
 	asteroids "large rock" 75 1.612
@@ -1513,445 +381,78 @@ system B18
 			distance 233
 			period 13.336
 
-system B2
-	pos -1375.57 -1745.5
-	government Ixkek
+system Chahln
+	pos -24279.2 -24039.2
+	government Zyr'c
+	habitable 851.84
+	belt 1903
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B1
-	link B15
-	link B17
-	link B3
-	link Gamma
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/k0
-		period 10
-	object Bravo
-		sprite planet/station7
-		distance 100
-		period 8
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B3
-	pos -1396.24 -1650.19
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link B14
-	link B15
-	link B2
-	link B4
-	link Gamma
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
+	link Clyinayak
+	link Y'cenna
+	asteroids "small rock" 14 2.21
+	asteroids "medium rock" 82 3.0056
+	asteroids "large rock" 13 1.989
+	asteroids "small metal" 12 2.1216
+	asteroids "medium metal" 34 1.2597
+	asteroids "large metal" 6 1.326
+	minables titanium 6 3.42258
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
 	fleet "Ixkek War" 1000
 	object
 		sprite star/k5
-		period 10
+		distance 43.5
+		period 11.1214
+		offset 180
 	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
+		sprite star/k5
+		distance 43.5
+		period 11.1214
+	object
+		sprite planet/desert6
+		distance 201.31
+		period 39.1452
+	object
+		sprite planet/gas12
+		distance 742.72
+		period 277.408
 		object
-			sprite planet/dust1
-			distance 229
-			period 12.994
-			object Charlie
-				sprite planet/station4
-				distance 394
-				period 29.3248
+			sprite planet/dust4
+			distance 314
+			period 14.6143
+	object
+		sprite planet/gas13
+		distance 1449.01
+		period 755.941
 		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
+			sprite planet/io
+			distance 259
+			period 11.7668
+	object
+		sprite planet/gas7
+		distance 2794.02
+		period 2024.07
 		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B4
-	pos -1482.43 -1621.55
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link B13
-	link B14
-	link B3
-	link B5
-	link Beta
-	link Gamma
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/giant
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object Delta
-			sprite planet/station2
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B5
-	pos -1575.99 -1592.24
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link B12
-	link B13
-	link B4
-	link B6
-	link Beta
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object Everest
-			sprite planet/station2
-			distance 229
-			period 12.994
-	object
-		sprite planet/dust1
-		distance 394
-		period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B6
-	pos -1661.22 -1641.53
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link B11
-	link B12
-	link B5
-	link B7
-	link Beta
-	link Ravaged
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	fleet "Zyr'c War" 500
-	object
-		sprite star/m4
-		period 10
-	object Foxtrot
-		sprite planet/earth-b
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B7
-	pos -1664.42 -1760.39
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link Alpha
-	link B10
-	link B11
-	link B6
-	link B9
-	link Beta
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/m8
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object
-			sprite planet/dust5
-			distance 565
-			period 50.3574
-		object Golf
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B8
-	pos -1536.38 -1877.66
-	government Ixkek
-	music "ambient/Bereskatuket ES Theme"
-	link Alpha
-	link B1
-	link B16
-	link B18
-	link B9
-	trade Clothing 251
-	trade Electronics 831
-	trade Equipment 469
-	trade Food 231
-	trade "Heavy Metals" 1241
-	trade Industrial 767
-	trade "Luxury Goods" 1135
-	trade Medical 777
-	trade Metal 520
-	trade Plastic 384
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/red
-		period 10
-	object
-		sprite planet/gas9
-		distance 1811.79
-		period 1129.48
-		object
-			sprite planet/lava0
-			distance 229
-			period 12.994
-		object
-			sprite planet/dust1
-			distance 394
-			period 29.3248
-		object Hotel
-			sprite planet/desert3-b
-			distance 565
-			period 50.3574
-		object
-			sprite planet/ice8
-			distance 684
-			period 67.0771
-
-system B9
-	pos -1628.46 -1855.57
-	government Ixkek
-	habitable 486.68
-	belt 1753
-	music "ambient/Bereskatuket ES Theme"
-	link Alpha
-	link B10
-	link B18
-	link B7
-	link B8
-	asteroids "small rock" 1 1.1256
-	asteroids "medium rock" 1 2.268
-	asteroids "large rock" 1 1.3104
-	asteroids "small metal" 2 1.6632
-	asteroids "large metal" 2 1.344
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	object
-		sprite star/k0
-		period 10
-	object
-		sprite planet/dust6
-		distance 139
-		period 29.714
-	object
-		sprite planet/ocean2
-		distance 342.25
-		period 114.803
-	object
-		sprite planet/lava5
-		distance 626.5
-		period 284.328
-	object
-		sprite planet/gas1
-		distance 1744.5
-		period 1321.13
-	object
-		sprite planet/gas17
-		distance 2884.5
-		period 2808.95
-		object
-			sprite planet/rock17
-			distance 225
-			period 14.4194
-
-system Beta
-	pos -1574.84 -1692.4
-	government Ixkek
-	habitable 320
-	belt 1541
-	music "ambient/Bereskatuket ES Theme"
-	link B4
-	link B5
-	link B6
-	link B7
-	link Khalchrade
-	asteroids "medium rock" 1 5.9616
-	asteroids "large rock" 1 4.4928
-	asteroids "small metal" 5 6.3072
-	asteroids "medium metal" 5 4.0176
-	asteroids "large metal" 11 3.8016
-	minables aluminum 5 4.52625
-	minables iron 1 5.11349
-	minables titanium 1 4.76115
-	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
-	fleet "Zyr'c War" 1000
-	object
-		sprite star/m0
-		period 10
-	object
-		sprite planet/gas17
-		distance 340.196
-		period 140.307
-		offset 337.172
-	object
-		sprite planet/rock1
-		distance 965.556
-		period 670.89
-		offset 128.993
-		object
-			sprite planet/lava0
-			distance 166
-			period 24.87
-	object
-		sprite planet/gas3
-		distance 1605.32
-		period 1438.22
-		offset 33.8771
-	object
-		sprite planet/gas1
-		distance 2427.61
-		period 2674.56
-		offset 11.6622
-		object
-			sprite planet/ice7
+			sprite planet/rhea
 			distance 260
-			period 16.7562
-		object Duo
-			sprite planet/dust3
-			distance 365.108
-			period 27.8835
-			offset 235.577
+			period 14.9139
+		object
+			sprite planet/callisto
+			distance 414
+			period 29.9662
+		object
+			sprite planet/rock7
+			distance 572
+			period 48.6659
 
 system Clyinayak
-	pos -2524.76 -1328.36
+	pos -24335.8 -23973.7
 	government Zyr'c
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link A10
-	link A11
-	link A2
-	link A3
-	link A4
-	link A8
-	link A9
+	link Chahln
+	link Sayen
 	trade Clothing 251
 	trade Electronics 831
 	trade Equipment 469
@@ -1963,7 +464,7 @@ system Clyinayak
 	trade Metal 520
 	trade Plastic 384
 	fleet "Zyr'c Peace" 500
-	fleet "Zyr'c War" 1000
+	fleet "Zyr'c War" 500
 	fleet "Ixkek War" 750
 	object
 		sprite star/wr
@@ -1993,17 +494,403 @@ system Clyinayak
 		distance 5600
 		period 9000
 
+system Crono
+	pos -23392.7 -23982.5
+	government Ixkek
+	habitable 486.68
+	belt 1694
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Elli
+	link Faza
+	asteroids "small rock" 78 1.652
+	asteroids "medium rock" 26 1.19
+	asteroids "large rock" 27 2.044
+	asteroids "small metal" 11 1.316
+	asteroids "medium metal" 13 0.98
+	asteroids "large metal" 14 0.952
+	minables gold 20 2.9983
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/mars
+		distance 327.56
+		period 107.492
+		object
+			sprite planet/rock0
+			distance 147
+			period 23.8194
+	object
+		sprite planet/cloud4
+		distance 660.4
+		period 307.715
+	object
+		sprite planet/rock13
+		distance 1227.76
+		period 780.025
+		object
+			sprite planet/rhea
+			distance 176
+			period 29.3516
+	object
+		sprite planet/gas6
+		distance 2416.92
+		period 2154.43
+		object
+			sprite planet/dust0
+			distance 287
+			period 12.419
+
+system Dhakei
+	pos -24201.9 -24217.7
+	government Zyr'c
+	habitable 858.28
+	belt 1529
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Acanaht
+	link Jii
+	asteroids "large rock" 5 4.52
+	asteroids "small metal" 32 3.28
+	asteroids "medium metal" 69 5.36
+	asteroids "large metal" 39 2.92
+	minables lead 13 7.04026
+	minables platinum 7 4.57406
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/g5
+		distance 24.1901
+		period 11.4639
+	object
+		sprite star/m4
+		distance 64.8099
+		period 11.4639
+		offset 180
+	object
+		sprite planet/lava2
+		distance 183.81
+		period 34.025
+	object
+		sprite planet/venus
+		distance 446.62
+		period 128.87
+	object
+		sprite planet/gas13
+		distance 1220.62
+		period 582.259
+	object
+		sprite planet/gas14
+		distance 1891.83
+		period 1123.49
+
+system Elli
+	pos -23530 -23961.4
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Crono
+	link Gamma
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 2000
+	object
+		sprite star/a0
+		period 10
+	object Alpha
+		sprite planet/rock4
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Enna'e
+	pos -23155.9 -24120.5
+	government Ixkek
+	habitable 625
+	belt 1595
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Faza
+	asteroids "small rock" 1 3.894
+	asteroids "medium rock" 44 1.815
+	asteroids "large rock" 31 4.026
+	asteroids "small metal" 8 3.267
+	asteroids "medium metal" 1 2.211
+	asteroids "large metal" 1 1.848
+	minables silver 2 2.85118
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/dust2
+		distance 128.25
+		period 23.2384
+	object
+		sprite planet/uranus
+		distance 584.89
+		period 226.324
+	object
+		sprite planet/gas7
+		distance 1353.53
+		period 796.75
+		object
+			sprite planet/ice7
+			distance 262
+			period 15.0863
+		object
+			sprite planet/desert4
+			distance 407
+			period 29.2094
+		object
+			sprite planet/dust5
+			distance 500
+			period 39.7727
+	object
+		sprite planet/jupiter
+		distance 2271.53
+		period 1732.2
+		object
+			sprite planet/rock3
+			distance 275
+			period 14.3305
+
+system Ent'ahi
+	pos -24686.4 -23681
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Blen'uw
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/b5
+		period 10
+	object 2
+		sprite planet/station7
+		distance 100
+		period 8
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Entaln'fu
+	pos -24350.1 -24001.6
+	government Zyr'c
+	habitable 9126.68
+	belt 1539
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Sayen
+	link Vsenn
+	asteroids "large rock" 1 2.22
+	asteroids "medium metal" 2 0.87
+	asteroids "large metal" 2 0.885
+	minables lead 1 1.19413
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/b5
+		distance 7.83877
+		period 7.46242
+		offset 180
+	object
+		sprite star/k0
+		distance 139.161
+		period 7.46242
+	object
+		sprite planet/rock1
+		distance 319.251
+		period 23.8837
+	object
+		sprite planet/rock12
+		distance 546.211
+		period 53.4496
+	object
+		sprite planet/rock5
+		distance 1173.85
+		period 168.393
+	object
+		sprite planet/uranus
+		distance 1565.61
+		period 259.376
+		object
+			sprite planet/dust4
+			distance 234
+			period 15.2932
+	object
+		sprite planet/jupiter
+		distance 4198.62
+		period 1139.1
+		object
+			sprite planet/ice0
+			distance 236
+			period 11.3928
+
+system Estanas
+	pos -24099.5 -24143.9
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Y'cenna
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 3000
+	object
+		sprite star/a5
+		period 10
+	object 1
+		sprite planet/rock4
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Faza
+	pos -23287 -24025.3
+	government Ixkek
+	habitable 912.6
+	belt 1896
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Crono
+	link Enna'e
+	asteroids "small metal" 21 5.664
+	asteroids "medium metal" 20 3.888
+	asteroids "large metal" 16 6.144
+	minables iron 20 5.83288
+	minables titanium 1 9.27464
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	object
+		sprite star/k0
+		distance 42.9374
+		period 11.6843
+		offset 180
+	object
+		sprite star/k5
+		distance 49.0626
+		period 11.6843
+	object
+		sprite planet/ice1
+		distance 220.313
+		period 43.2991
+	object
+		sprite planet/rock12
+		distance 516.313
+		period 155.342
+	object
+		sprite planet/earth
+		distance 1330.92
+		period 642.908
+		object
+			sprite planet/rock17
+			distance 172
+			period 23.094
+	object
+		sprite planet/gas4
+		distance 2110.81
+		period 1284.09
+		object
+			sprite planet/dust7
+			distance 252
+			period 14.1091
+		object
+			sprite planet/dust3
+			distance 356
+			period 23.6904
+
 system Gamma
-	pos -1469.38 -1722.18
+	pos -23492.5 -24019
 	government Ixkek
 	habitable 1566.68
 	belt 1517
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B1
-	link B2
-	link B3
-	link B4
+	link Elli
 	link Khalchrade
+	link Sanh
 	asteroids "small rock" 4 6.2176
 	asteroids "medium rock" 9 4.0368
 	asteroids "large rock" 2 3.3408
@@ -2060,77 +947,320 @@ system Gamma
 			period 42.4825
 			offset 29.0017
 
-system Jana
-	pos -1879.88 -1436.51
-	government Pirate
-	habitable 425.92
-	belt 1326
-	link Aska
-	link Llana
-	asteroids "small rock" 1 3.84
-	asteroids "medium rock" 11 6.96
-	asteroids "large rock" 3 2.544
-	asteroids "small metal" 4 4.368
-	asteroids "medium metal" 4 4.128
-	asteroids "large metal" 4 6.288
-	minables gold 1 9.75669
-	minables lead 3 10.4871
-	minables titanium 3 6.47539
-	fleet "Exporiane Pirate" 1500
+system Helgam
+	pos -23322.8 -24129.8
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Sanh
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
 	object
-		sprite star/k5
+		sprite star/m4
 		period 10
-	object
-		sprite planet/forest4
-		distance 530.705
-		period 236.96
-		offset 244.119
-		object Inna
-			sprite planet/station3
-			distance 189.872
-			period 23.4398
-			offset 21.9264
-	object
-		sprite planet/gas7
-		distance 2711.43
-		period 2736.49
-		offset 297.928
-	object
-		sprite planet/gas1
-		distance 4266.92
-		period 5402.17
-		offset 63.8581
+	object Foxtrot
+		sprite planet/earth-b
+		distance 1811.79
+		period 1129.48
 		object
-			sprite planet/rock14
-			distance 242
-			period 15.0466
-		object
-			sprite planet/europa
-			distance 358
-			period 27.0732
-	object
-		sprite planet/gas11
-		distance 5245.08
-		period 7362.49
-		offset 11.4469
+			sprite planet/lava0
+			distance 229
+			period 12.994
 		object
 			sprite planet/dust1
-			distance 235
-			period 11.8817
+			distance 394
+			period 29.3248
 		object
-			sprite planet/rock7
-			distance 367
-			period 23.1887
+			sprite planet/dust5
+			distance 565
+			period 50.3574
 		object
-			sprite planet/desert4
-			distance 477
-			period 34.3602
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Ilib'en
+	pos -23384.8 -24276.1
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Novacron
+	link Ononah
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	object
+		sprite star/m8
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object Golf
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Iotam
+	pos -23713.3 -23838.6
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Chah
+	link Khazama
+	link Nha
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
+	object
+		sprite star/red
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object Hotel
+			sprite planet/desert3-b
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Jana
+	pos -23673.9 -24226.9
+	government Pirate
+	habitable 1050.92
+	belt 1115
+	link Cana
+	link Llana
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	asteroids "small rock" 45 2.2176
+	asteroids "medium rock" 6 2.0559
+	asteroids "large rock" 154 2.31
+	asteroids "medium metal" 3 1.1781
+	asteroids "large metal" 1 2.541
+	minables lead 21 3.51382
+	minables silver 23 2.71707
+	fleet "Exporiane Pirate" 1500
+	object
+		sprite star/g5
+		distance 39.7177
+		period 11.9706
+	object
+		sprite star/k5
+		distance 58.2823
+		period 11.9706
+		offset 180
+	object
+		sprite planet/cloud2
+		distance 280.282
+		period 57.8987
+	object
+		sprite planet/desert5
+		distance 576.904
+		period 170.974
+		offset 344.09
+	object
+		sprite planet/forest1
+		distance 1065.9
+		period 429.388
+		offset 6.41231
+		object Inna
+			sprite planet/station2
+			distance 168.916
+			period 24.5886
+			offset 114.9
+	object
+		sprite planet/earth
+		distance 1633.82
+		period 814.857
+		offset 332.819
+		object
+			sprite planet/luna
+			distance 145
+			period 17.8755
+	object
+		sprite planet/gas11
+		distance 2061.38
+		period 1154.81
+		offset 168.144
+	object
+		sprite planet/uranus
+		distance 3313.79
+		period 2353.76
+		offset 44.9315
+		object
+			sprite planet/dust7
+			distance 204
+			period 12.4485
+	object "Exporiane Wormhole"
+		sprite planet/wormholeblue
+		distance 4079.28
+		period 1700
+
+system Jii
+	pos -24307.9 -24159
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Dhakei
+	link Tgahv
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object 5
+			sprite planet/station2
+			distance 229
+			period 12.994
+	object
+		sprite planet/dust1
+		distance 394
+		period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Kau
+	pos -24115.9 -23682.6
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Ravaged
+	link Saph
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object Everest
+			sprite planet/station2
+			distance 229
+			period 12.994
+	object
+		sprite planet/dust1
+		distance 394
+		period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Kentro
+	pos -23969.4 -24068.6
+	government Uninhabited
+	habitable 10000
+	haze _menu/haze-full
+	music "ambient/Bereskatuket ES Theme"
+	arrival 2000
+	hazard "Black Hole Gravity" 1
+	hazard "Black Hole Event Horizon" 1
+	hazard "Black Hole Accretion Disk" 1
+	object
+		sprite "star/black-hole-core"
+		period 1
+	object
+		sprite "star/black-hole"
+		period 1
 
 system Kha'lin'pug
-	pos -2168.28 -1752.54
+	pos -24097.1 -23967.4
 	government Pug
 	habitable 1080
 	belt 1266
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 11 2.0304
 	asteroids "medium rock" 27 2.7216
@@ -2270,8 +1400,9 @@ system Kha'lin'pug
 		offset 4.28056
 
 system Khalchrade
-	pos -1532.47 -1740.64
+	pos -23584.3 -24012.9
 	government Ixkek
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	link Alpha
 	link Beta
@@ -2287,7 +1418,8 @@ system Khalchrade
 	trade Metal 520
 	trade Plastic 384
 	fleet "Ixkek Peace" 500
-	fleet "Ixkek War" 1000
+	fleet "Ixkek War" 500
+	fleet "Ixkek Guardian" 1000
 	fleet "Zyr'c War" 750
 	object
 		sprite star/wr
@@ -2301,60 +1433,379 @@ system Khalchrade
 		distance 1079.28
 		period 17000
 
-system Llana
-	pos -1788.88 -1520.51
-	government Pirate
-	habitable 806.68
-	belt 1900
-	link Jana
-	link Ravaged
-	asteroids "small rock" 3 9.0272
-	asteroids "medium rock" 24 6.6976
-	asteroids "large rock" 9 10.92
-	asteroids "small metal" 9 9.464
-	asteroids "medium metal" 7 7.7896
-	asteroids "large metal" 13 8.1536
-	minables iron 16 12.1333
-	minables lead 1 14.7842
-	fleet "Exporiane Pirate" 1500
+system Khazama
+	pos -23655.1 -23903.4
+	government Ixkek
+	habitable 945
+	belt 1370
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Beta
+	link Iotam
+	asteroids "small rock" 5 5.2164
+	asteroids "medium rock" 5 6.0536
+	asteroids "large rock" 3 5.0232
+	asteroids "small metal" 6 9.5956
+	asteroids "medium metal" 7 6.6976
+	asteroids "large metal" 7 5.8604
+	minables lead 1 10.7924
+	minables silver 1 11.6994
+	minables titanium 1 11.5088
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 2000
 	object
-		sprite star/k0
-		distance 44.429
-		period 16.6931
+		sprite star/g5
+		distance 36.2328
+		period 14.4019
 		offset 180
 	object
 		sprite star/m0
-		distance 67.571
-		period 16.6931
+		distance 70.7672
+		period 14.4019
 	object
-		sprite planet/titan
-		distance 192.381
-		period 37.5796
+		sprite planet/ice0
+		distance 200.807
+		period 37.0265
 	object
-		sprite planet/rock3
-		distance 364.741
-		period 98.1039
+		sprite planet/desert3
+		distance 376.047
+		period 94.8872
+	object
+		sprite planet/desert10
+		distance 727.887
+		period 255.529
+		object
+			sprite planet/dust0
+			distance 137
+			period 16.4168
+	object
+		sprite planet/rhea
+		distance 1465.5
+		period 729.998
+	object
+		sprite planet/gas9
+		distance 3094.46
+		period 2239.86
+		object
+			sprite planet/callisto
+			distance 274
+			period 17.0066
+		object
+			sprite planet/io
+			distance 371
+			period 26.7948
+
+system Ksernf
+	pos -24568.3 -23961.5
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Onuh'ja'husa
+	link Xzenn
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object 8
+			sprite planet/desert3-b
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Llana
+	pos -23724.2 -24125.3
+	government Ixkek
+	habitable 1080
+	belt 1710
+	link Jana
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	asteroids "small rock" 10 5.7036
+	asteroids "medium rock" 4 3.1752
+	asteroids "large rock" 8 4.6452
+	asteroids "small metal" 10 5.1156
+	asteroids "medium metal" 33 8.7024
+	asteroids "large metal" 1 3.8808
+	minables aluminum 1 11.5885
+	fleet "Exporiane Pirate" 2500
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock8
+		distance 170
+		period 26.9787
+	object
+		sprite planet/rock11
+		distance 496.25
+		period 134.555
+	object
+		sprite planet/rock6
+		distance 1117.25
+		period 454.542
+	object
+		sprite planet/gas8
+		distance 1385.49
+		period 627.702
+	object
+		sprite planet/gas0
+		distance 1780.93
+		period 914.784
+	object
+		sprite planet/gas14
+		distance 4687.34
+		period 3906.05
+		object
+			sprite planet/tethys
+			distance 219
+			period 13.1985
+		object
+			sprite planet/europa
+			distance 333
+			period 24.7471
+
+system Mehen'le
+	pos -24421 -23768.6
+	government Zyr'c
+	habitable 625
+	belt 1878
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Alacana
+	link Obliterated
+	link Yen'ah'ec'
+	asteroids "small rock" 16 2.552
+	asteroids "medium rock" 5 1.8656
+	asteroids "large rock" 3 2.2528
+	asteroids "small metal" 50 1.8656
+	asteroids "medium metal" 2 1.0912
+	asteroids "large metal" 5 0.9152
+	minables iron 11 3.60032
+	minables neodymium 1 3.74177
+	minables silver 19 3.68945
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 1000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rhea
+		distance 118.09
+		period 20.5324
 	object
 		sprite planet/desert1
-		distance 912.551
-		period 388.235
+		distance 481.33
+		period 168.96
 	object
-		sprite planet/gas1
-		distance 2326.44
-		period 1580.33
+		sprite planet/rock13
+		distance 1070.97
+		period 560.772
+	object
+		sprite planet/rock7
+		distance 1231.21
+		period 691.223
+	object
+		sprite planet/lava5
+		distance 1379.7
+		period 819.968
+	object
+		sprite planet/gas2
+		distance 6639.7
+		period 8656.51
+		object
+			sprite planet/rock0
+			distance 207
+			period 18.0456
+
+system Mii
+	pos -23911.2 -23728.3
+	government Ixkek
+	habitable 625
+	belt 1020
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Chah
+	link Nha
+	link Saph
+	asteroids "small rock" 3 6.72
+	asteroids "medium rock" 48 9.4752
+	asteroids "large rock" 6 5.9808
+	asteroids "small metal" 17 7.8624
+	asteroids "medium metal" 51 5.7792
+	asteroids "large metal" 32 3.5616
+	minables titanium 24 11.0488
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava5
+		distance 229.36
+		period 55.5772
+	object
+		sprite planet/uranus
+		distance 740.65
+		period 322.507
+		object
+			sprite planet/io
+			distance 204
+			period 12.4485
+		object
+			sprite planet/dust7
+			distance 353
+			period 28.3358
+	object
+		sprite planet/rock19
+		distance 1606.09
+		period 1029.85
+	object
+		sprite planet/gas5
+		distance 2534.58
+		period 2041.64
+		object
+			sprite planet/luna
+			distance 242
+			period 12.519
 		object
 			sprite planet/rock14
-			distance 217
-			period 12.7763
+			distance 372
+			period 23.8595
+		object
+			sprite planet/desert4
+			distance 527
+			period 40.2312
+
+system Nha
+	pos -23782.5 -23775.9
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Chah
+	link Iotam
+	link Mii
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	object
+		sprite star/giant
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object Delta
+			sprite planet/station2
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Novacron
+	pos -23384.5 -24157.9
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Ilib'en
+	link Sanh
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
+	object
+		sprite star/k0
+		period 10
+	object Bravo
+		sprite planet/station7
+		distance 100
+		period 8
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
 
 system Obliterated
-	pos -2117.5 -1320.26
+	pos -24350.3 -23714.8
 	government Zyr'c
 	habitable 1000
 	belt 1881
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link A5
-	link Aska
+	link Mehen'le
+	link Ravaged
 	asteroids "small rock" 44 3.904
 	asteroids "medium rock" 6 4.48
 	asteroids "large rock" 8 3.84
@@ -2373,10 +1824,9 @@ system Obliterated
 	trade Medical 759
 	trade Metal 357
 	trade Plastic 258
-	fleet "Ixkek Peace" 1150
-	fleet "Ixkek War" 1150
-	fleet "Zyr'c Peace" 1150
-	fleet "Zyr'c War" 1150
+	fleet "Ixkek War" 750
+	fleet "Zyr'c Peace" 1000
+	fleet "Zyr'c War" 750
 	fleet "Exporiane Pirate" 1500
 	object
 		sprite star/g0
@@ -2405,21 +1855,123 @@ system Obliterated
 		sprite planet/gas1
 		distance 2169.47
 		period 1616.78
-	object "Exporiane Wormhole"
-		sprite planet/wormholeblue
-		distance 4079.28
-		period 1700
+
+system Ononah
+	pos -23441.2 -24379.4
+	government Ixkek
+	habitable 945
+	belt 1908
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Ilib'en
+	asteroids "small rock" 13 3.6784
+	asteroids "medium rock" 33 5.6628
+	asteroids "large rock" 30 5.566
+	asteroids "small metal" 1 4.598
+	asteroids "medium metal" 1 6.3888
+	asteroids "large metal" 11 4.2592
+	minables lead 1 6.9959
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	object
+		sprite star/g5
+		distance 30.1376
+		period 10.9252
+	object
+		sprite star/m0
+		distance 58.8624
+		period 10.9252
+		offset 180
+	object
+		sprite planet/rock11
+		distance 184.502
+		period 32.6097
+	object
+		sprite planet/desert5
+		distance 381.742
+		period 97.0509
+	object
+		sprite planet/gas13
+		distance 898.992
+		period 350.734
+	object
+		sprite planet/ice7
+		distance 1400.63
+		period 682.072
+	object
+		sprite planet/gas10
+		distance 2292.12
+		period 1427.91
+
+system Onuh'ja'husa
+	pos -24633.6 -23868.3
+	government Zyr'c
+	habitable 659.2
+	belt 1768
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Blen'uw
+	link Ksernf
+	asteroids "small rock" 10 3.0744
+	asteroids "medium rock" 95 2.6712
+	asteroids "large rock" 2 1.764
+	asteroids "small metal" 1 3.2004
+	asteroids "medium metal" 57 1.512
+	asteroids "large metal" 60 3.4272
+	minables aluminum 6 2.62762
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/k5
+		distance 37.8655
+		period 17.2436
+	object
+		sprite star/m4
+		distance 69.1345
+		period 17.2436
+		offset 180
+	object
+		sprite planet/rock12
+		distance 276.894
+		period 71.7832
+	object
+		sprite planet/ganymede
+		distance 485.984
+		period 166.911
+	object
+		sprite planet/dust0
+		distance 666.394
+		period 268.008
+	object
+		sprite planet/forest1
+		distance 953.084
+		period 458.404
+	object
+		sprite planet/jupiter
+		distance 2434.37
+		period 1871.25
+		object
+			sprite planet/europa
+			distance 268
+			period 13.7868
+		object
+			sprite planet/dust7
+			distance 382
+			period 23.4616
+		object
+			sprite planet/dust1
+			distance 541
+			period 39.5419
 
 system Ravaged
-	pos -1740.27 -1616.62
+	pos -24241.7 -23687.8
 	government Ixkek
 	habitable 1000
 	belt 1881
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
-	link B11
-	link B12
-	link B6
-	link Llana
+	link Kau
+	link Obliterated
 	asteroids "small rock" 44 3.904
 	asteroids "medium rock" 6 4.48
 	asteroids "large rock" 8 3.84
@@ -2438,10 +1990,9 @@ system Ravaged
 	trade Medical 759
 	trade Metal 357
 	trade Plastic 258
-	fleet "Ixkek Peace" 1150
-	fleet "Ixkek War" 1150
-	fleet "Zyr'c Peace" 1150
-	fleet "Zyr'c War" 1150
+	fleet "Ixkek Peace" 1000
+	fleet "Ixkek War" 750
+	fleet "Zyr'c War" 750
 	fleet "Exporiane Pirate" 1500
 	object
 		sprite star/b5
@@ -2470,16 +2021,261 @@ system Ravaged
 		sprite planet/wormholered
 		distance 3079.28
 		period 17000
-	object "Exporiane Wormhole"
-		sprite planet/wormholeblue
-		distance 4079.28
-		period 1700
+
+system Sanh
+	pos -23408.3 -24059.4
+	government Ixkek
+	habitable 719.96
+	belt 1800
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Gamma
+	link Helgam
+	link Novacron
+	asteroids "small rock" 116 4.602
+	asteroids "medium rock" 111 4.368
+	asteroids "large rock" 1 7.644
+	asteroids "small metal" 3 5.226
+	asteroids "medium metal" 1 6.24
+	asteroids "large metal" 3 5.616
+	minables iron 6 7.74116
+	minables tungsten 32 7.92246
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 2000
+	object
+		sprite star/k0
+		distance 30.4577
+		period 13.5862
+		offset 180
+	object
+		sprite star/m4
+		distance 63.5423
+		period 13.5862
+	object
+		sprite planet/venus
+		distance 256.432
+		period 61.216
+	object
+		sprite planet/gas10
+		distance 732.042
+		period 295.264
+		object
+			sprite planet/oberon
+			distance 176
+			period 12.2904
+	object
+		sprite planet/mars
+		distance 1462.05
+		period 833.394
+	object
+		sprite planet/gas9
+		distance 2253.21
+		period 1594.44
+		object
+			sprite planet/rock7
+			distance 221
+			period 12.3191
+
+system Saph
+	pos -24002 -23694.6
+	government Ixkek
+	habitable 486.68
+	belt 1753
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Kau
+	link Mii
+	asteroids "small rock" 1 1.1256
+	asteroids "medium rock" 1 2.268
+	asteroids "large rock" 1 1.3104
+	asteroids "small metal" 2 1.6632
+	asteroids "large metal" 2 1.344
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 2000
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/dust6
+		distance 139
+		period 29.714
+	object
+		sprite planet/ocean2
+		distance 342.25
+		period 114.803
+	object
+		sprite planet/lava5
+		distance 626.5
+		period 284.328
+	object
+		sprite planet/gas1
+		distance 1744.5
+		period 1321.13
+	object
+		sprite planet/gas17
+		distance 2884.5
+		period 2808.95
+		object
+			sprite planet/rock17
+			distance 225
+			period 14.4194
+
+system Sayen
+	pos -24396.1 -23911.7
+	government Zyr'c
+	habitable 1080
+	belt 1047
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Alacana
+	link Clyinayak
+	link Entaln'fu
+	asteroids "small rock" 1 3.09
+	asteroids "medium rock" 4 1.92
+	asteroids "large rock" 16 4.02
+	asteroids "small metal" 4 2.73
+	asteroids "medium metal" 12 2.73
+	asteroids "large metal" 24 1.5
+	minables silver 1 2.88989
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock7
+		distance 727.327
+		period 238.75
+		offset 251.52
+	object
+		sprite planet/ice1
+		distance 1241.94
+		period 532.722
+		offset 79.7982
+	object
+		sprite planet/gas10
+		distance 2575.43
+		period 1590.83
+		offset 133.663
+		object
+			sprite planet/desert4
+			distance 179
+			period 12.606
+		object
+			sprite planet/dust0
+			distance 291
+			period 26.1298
+		object
+			sprite planet/rock3
+			distance 450
+			period 50.2477
+		object
+			sprite planet/dust5
+			distance 549
+			period 67.7104
+
+system Tgahv
+	pos -24397.5 -24100
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Jii
+	link Xzenn
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/blue
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/dust1
+			distance 229
+			period 12.994
+			object 3
+				sprite planet/station4
+				distance 394
+				period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Trens
+	pos -23761.3 -23959.2
+	government Ixkek
+	habitable 2859.44
+	belt 1479
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Xinu
+	asteroids "large metal" 1 4.575
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 3000
+	object
+		sprite star/f0
+		distance 23.4878
+		period 12.1266
+		offset 180
+	object
+		sprite star/k0
+		distance 114.512
+		period 12.1266
+	object
+		sprite planet/lava2
+		distance 237.512
+		period 27.3809
+	object
+		sprite planet/io
+		distance 376.072
+		period 54.554
+	object
+		sprite planet/ice8
+		distance 748.712
+		period 153.247
+	object
+		sprite planet/rock2
+		distance 989.272
+		period 232.752
+	object
+		sprite planet/gas2
+		distance 2676.91
+		period 1036.03
+		object
+			sprite planet/oberon
+			distance 203
+			period 17.525
+		object
+			sprite planet/ice7
+			distance 338
+			period 37.6521
 
 system Unknown
-	pos -2042.49 -1613.09
+	pos -24018.6 -23945.6
 	government Uninhabited
 	habitable 2035
 	belt 1813
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 2 1.7204
 	asteroids "medium rock" 78 3.3649
@@ -2559,10 +2355,11 @@ system Unknown
 		offset 0.980163
 
 system "Unknown "
-	pos -2120.2 -1667.81
+	pos -23928.7 -23952.5
 	government Uninhabited
 	habitable 1566.68
 	belt 1039
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	asteroids "small metal" 2 2.4276
 	asteroids "medium metal" 4 2.38
@@ -2643,10 +2440,11 @@ system "Unknown "
 			period 48.918
 
 system "Unknown  "
-	pos -1970.74 -1557.14
+	pos -23849.7 -23993.1
 	government Uninhabited
 	habitable 719.96
 	belt 1631
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	asteroids "small metal" 7 0.9724
 	asteroids "medium metal" 4 1.6082
@@ -2700,10 +2498,11 @@ system "Unknown  "
 		offset 330.247
 
 system "Unknown    "
-	pos -1884.28 -1524.54
+	pos -23792.3 -24062.9
 	government Uninhabited
 	habitable 4500
 	belt 1630
+	haze ui/yellowhaze
 	music "ambient/Bereskatuket ES Theme"
 	asteroids "small rock" 2 4.116
 	asteroids "medium rock" 12 5.208
@@ -2833,6 +2632,321 @@ system "Unknown    "
 			distance 1955.49
 			period 2790.92
 			offset 201.263
+	object "Exporiane Wormhole"
+		sprite planet/wormholeblue
+		distance 4079.28
+		period 1700
+
+system Vima
+	pos -23878.8 -24100.2
+	government Uninhabited
+	habitable 3645
+	belt 1539
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	asteroids "small rock" 3 2.6448
+	asteroids "medium rock" 6 3.3516
+	asteroids "large rock" 4 3.3972
+	asteroids "small metal" 14 2.508
+	asteroids "medium metal" 1 2.166
+	asteroids "large metal" 9 1.8924
+	minables lead 2 4.82305
+	object
+		sprite star/a5
+		period 10
+	object
+		sprite planet/miranda
+		distance 190.41
+		period 17.4079
+	object
+		sprite planet/lava2
+		distance 423.41
+		period 57.7235
+	object
+		sprite planet/desert2
+		distance 725.41
+		period 129.445
+	object
+		sprite planet/rock11
+		distance 912.22
+		period 182.541
+	object
+		sprite planet/gas7
+		distance 2625.11
+		period 891.112
+		offset 61.1466
+		object
+			sprite planet/tethys
+			distance 230
+			period 12.4086
+			offset 188.458
+		object
+			sprite planet/oberon
+			distance 348
+			period 23.094
+		object
+			sprite planet/rock7
+			distance 467
+			period 35.9009
+
+system Vsenn
+	pos -24304 -24080.5
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Acanaht
+	link Entaln'fu
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object 6
+		sprite planet/earth-b
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock15
+		distance 282.61
+		period nan
+	object
+		sprite planet/rock9
+		distance 657.61
+		period nan
+		object
+			sprite planet/luna
+			distance 167
+			period 27.681
+	object
+		sprite planet/gas17
+		distance 1428.42
+		period nan
+		object
+			sprite planet/rock7
+			distance 238
+			period 15.687
+		object
+			sprite planet/rock17
+			distance 369
+			period 30.284
+	object
+		sprite planet/gas4
+		distance 2289.71
+		period nan
+		object
+			sprite planet/oberon
+			distance 232
+			period 12.4632
+		object
+			sprite planet/rock14
+			distance 363
+			period 24.3926
+	object
+		sprite planet/jupiter
+		distance 4589.32
+		period nan
+		object
+			sprite planet/europa
+			distance 253
+			period 12.6457
+		object
+			sprite planet/dust7
+			distance 352
+			period 20.7528
+
+system Xinu
+	pos -23706.5 -24018.7
+	government Ixkek
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Alpha
+	link Trens
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Ixkek Peace" 500
+	fleet "Ixkek War" 1000
+	fleet "Zyr'c War" 2000
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/dust1
+			distance 229
+			period 12.994
+			object Charlie
+				sprite planet/station4
+				distance 394
+				period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Xzenn
+	pos -24482.6 -24029.2
+	government Zyr'c
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Ksernf
+	link Tgahv
+	trade Clothing 251
+	trade Electronics 831
+	trade Equipment 469
+	trade Food 231
+	trade "Heavy Metals" 1241
+	trade Industrial 767
+	trade "Luxury Goods" 1135
+	trade Medical 777
+	trade Metal 520
+	trade Plastic 384
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas9
+		distance 1811.79
+		period 1129.48
+		object
+			sprite planet/lava0
+			distance 229
+			period 12.994
+		object
+			sprite planet/dust1
+			distance 394
+			period 29.3248
+		object
+			sprite planet/dust5
+			distance 565
+			period 50.3574
+		object 7
+			sprite planet/ice8
+			distance 684
+			period 67.0771
+
+system Y'cenna
+	pos -24187.4 -24096.9
+	government Zyr'c
+	habitable 1080
+	belt 1710
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Chahln
+	link Estanas
+	asteroids "small rock" 24 8.1
+	asteroids "medium rock" 42 11.1
+	asteroids "large rock" 5 10.35
+	asteroids "small metal" 2 9.15
+	asteroids "medium metal" 8 9.225
+	asteroids "large metal" 22 11.175
+	minables gold 4 12.4812
+	minables silicon 1 19.2725
+	minables silver 8 15.1019
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 2000
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava5
+		distance 225.21
+		period 41.1367
+	object
+		sprite planet/cloud7
+		distance 458.82
+		period 119.622
+	object
+		sprite planet/cloud5
+		distance 737.07
+		period 243.563
+	object
+		sprite planet/jupiter
+		distance 2160.71
+		period 1222.48
+		object
+			sprite planet/dust4
+			distance 267
+			period 13.7097
+
+system Yen'ah'ec'
+	pos -24316 -23751.9
+	government Zyr'c
+	habitable 233.28
+	belt 1867
+	haze ui/yellowhaze
+	music "ambient/Bereskatuket ES Theme"
+	link Mehen'le
+	asteroids "large metal" 1 6.8817
+	fleet "Zyr'c Peace" 500
+	fleet "Zyr'c War" 1000
+	fleet "Ixkek War" 2000
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock8
+		distance 227.09
+		period 89.6227
+	object
+		sprite planet/rock13
+		distance 568.38
+		period 354.878
+	object
+		sprite planet/rock7
+		distance 881.63
+		period 685.568
+	object
+		sprite planet/gas17
+		distance 1136.12
+		period 1002.9
+	object
+		sprite planet/gas16
+		distance 3058.16
+		period 4429.06
 
 planet 1
 	attributes zyr'c exporiane
@@ -2899,11 +3013,6 @@ planet Alpha
 	shipyard "Ixkek Medium"
 	outfitter Ixkek
 
-planet Ana'ii'pug
-	landscape land/forest1
-	description `The Pug seem to be keeping another one of their backups of a species here. Both Ixkek and Zyr'c live here, surprisingly no hard feelings seem to be present.`
-	spaceport `You are given fuel by a friendly Exporiane worker, whom you make small talk with for a bit, and ask him about the history. He talks about how the 'Elven' brought the few not at war here for an undisclosed special purpose.`
-
 planet Bravo
 	attributes ixkek exporiane
 	landscape land/loc2
@@ -2912,7 +3021,7 @@ planet Bravo
 
 planet Cana'i'pug
 	landscape land/forest1
-	description `This Pug planet is inhabited half by the pug, but around the equator is a giant barrier keeping the natives out. The natives are small, rabbit-like creatures, with stone-age level weapons. They speak in a loud chittering language, but you only obtained this by using the ship's over-amplification technology. The Pug do not allow you to go anywhere near the barrier.`
+	description `This Pug planet is inhabited half by the pug, but around the equator is a giant barrier keeping the natives out. The natives are small, rabbit-like creatures, with stone age level weapons. They speak in a loud chittering language, but you only obtained this by using the ship's over-amplification technology. The Pug do not allow you to go anywhere near the barrier.`
 	spaceport `The Pug let you refuel, but there are many suspicious looks cast around, and you are not allowed to leave your ship.`
 
 planet Cara
@@ -2962,6 +3071,7 @@ planet Everest
 planet "Exporiane Wormhole"
 	music "ambient/Bereskatuket ES Theme"
 	government "Exporiane Wormhole"
+	haze ui/yellowhaze
 
 planet Foxtrot
 	attributes ixkek exporiane
