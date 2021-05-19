@@ -1,4 +1,4 @@
-# Copyright (c) 2018 by Timothy Butterworth
+# Copyright (c) 2021 by Bereskatuket (kestrel1110)
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -683,7 +683,85 @@ ship "crazbele 3500"
 	explode "huge explosion" 30
 	"final explode" "final explosion large"
 	description "" 
---------------------------------------------------------------------
+	
+ship "seneca 3500"
+	sprite "ship/exp/seneca 3500"
+	attributes
+		licenses
+			Ixkek
+		category "Heavy Warship"
+		"cost" 500000000
+		"shields" 501908
+		"hull" 350000
+		"required crew" 56
+		"bunks" 104
+		"mass" 560
+		"drag" 7
+		"heat dissipation" .7
+		"fuel capacity" 3000
+		"cargo space" 180
+		"outfit space" 1400
+		"weapon capacity" 608
+		"engine capacity" 462
+		weapon
+			"blast radius" 3500
+			"shield damage" 35000
+			"hull damage" 17500
+			"hit force" 52500
+	outfits
+		"Exporiane Engines" 3
+		Hyperdrive
+
+		"Ixkek Anti-Missile Turret" 2
+		"Ixkek Wormhole Gun" 3
+
+		"Ixkek Modular Control Center"
+		"Ixkek Shield Generator Module" 2
+		"Ixkek Nanobot Module" 2
+		"Ixkek Battery Module" 2
+		"Ixkek Generator Module" 2
+		"Ixkek Cooling Module" 2
+		"Ixkek Laser Grid Module"
+		"Ixkek Ramscoop Module" 2
+		"Ixkek Scanning Module" 2
+		"Ixkek Pressure Shielding Module"
+	gun -117.5 15.5
+	gun 117.5 15.5
+	gun 1 -134.5
+	engine -121 176.5
+		zoom 1
+		angle 0
+		under
+	engine 121 176.5
+		zoom 1
+		angle 0
+		under
+	engine -37 177.5
+		zoom 1
+		angle 0
+		under
+	engine 37 177.5
+		zoom 1
+		angle 0
+		under
+	engine -9 160
+		zoom 1
+		angle 0
+		under
+	engine 9 160
+		zoom 1
+		angle 0
+		under
+	turret -27.5 114.5
+	turret 27.5 114.5
+	explode "tiny explosion" 8
+	explode "small explosion" 18
+	explode "medium explosion" 28
+	explode "big explosion" 18
+	explode "nuke explosion" 38
+	"final explode" "final explosion large"
+
+#--------------------------------------------------------------------#
 
 ship "atlan'tiae 500"
 	sprite "ship/exp/atlan'tiae 500"
@@ -1317,4 +1395,3 @@ ship "zarac 1250"
 	
 	
 	
-
