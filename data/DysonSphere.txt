@@ -1,7 +1,3 @@
-dyson special weapons
-	gravitational proximity field
-	solar missiles
-
 ship "Dyson Sphere"
 	sprite "ship/dyson"
 	thumbnail "thumbnail/dyson"
