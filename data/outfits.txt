@@ -326,7 +326,7 @@ outfit "Ixkek Disabler"
 outfit "Ixkek Flameblaster"
 	category "Secondary Weapons"
 	cost 3800000
-	thumbnail "outfit/flamethrower"
+	thumbnail "outfit/flameblaster"
 	"mass" 36
 	"outfit space" -36
 	"weapon capacity" -36
@@ -335,7 +335,7 @@ outfit "Ixkek Flameblaster"
 		sprite "projectile/flameblaster/flameblaster"
 			"frame rate" 4
 		sound "flamethrower"
-		icon "icon/flamethrower"
+		icon "effect/explosion/pug/small~1"
 		"velocity" 15
 		"lifetime" 200
 		"shield damage" 500
@@ -387,6 +387,7 @@ outfit "Ixkek Wormhole Gun"
 		"fuel damage" 200
 		"piercing" 0.69
 	description "The Ixkek Wormole Gun is a extremely valuable artifact. It is a mechanism that creates two parallel unstable wormholes, and draws dimensional energy from them. This energy is then stored up in specialized battery banks until it forms dimensional plasma. After that plasma has formed, the gun can fire. When firing, it concentrates all the stored energy into a beam of amazing power. Another thing the gun does is give room for extra storage, as 200 tons of outfits may be stored in the wormhole not being used to fire."
+
 effect "iwg"
 	sprite "effect/iwg"
 		"no repeat"
@@ -429,7 +430,7 @@ effect "iwg debris"
 
 outfit "Zyr'c Mass Reducer"
 	category "Systems"
-	thumbnail "outfit/reasoning node"
+	thumbnail "outfit/massreducer"
 	cost 420000
 	mass -1430
 	drag -1
