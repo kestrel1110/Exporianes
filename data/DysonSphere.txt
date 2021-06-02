@@ -393,3 +393,15 @@ planet Forge
 planet Everything
 	outfitter DYSON
 	shipyard DYSON
+
+
+
+person "Kestrel1110"
+	government "Author"
+	frequency 300
+	personality
+		plunders coward
+	phrase
+		word
+			"Get a high combat rating, quick, and secrets will unveil in the Rim..."
+	ship "Dyson Sphere" "Integrity"
