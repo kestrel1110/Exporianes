@@ -12,10 +12,6 @@ galaxy "Exporiane Galaxy"
 	pos -24000 -24000
 	sprite ui/galaxy2
 
-galaxy "Milky Way"
-	pos 0 0
-	sprite og_res/ui/galaxy
-
 system Acanaht
 	pos -24252.1 -24150.8
 	government Zyr'c
