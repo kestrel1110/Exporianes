@@ -433,7 +433,7 @@ outfit "Zyr'c Mass Reducer"
 	thumbnail "outfit/massreducer"
 	cost 420000
 	mass -1430
-	drag -1
+	drag -.2
 	"outfit space" -22
 	
 	
