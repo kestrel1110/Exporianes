@@ -1,0 +1,79 @@
+outfit "Dragon Blast"
+	category "Guns"
+	cost 29590000
+	mass 343
+	"outfit space" -343
+	"weapon capacity" -343
+	"gun ports" -1
+	"required crew" 21
+	"fuel capacity" 350
+	"energy capacity" 34050
+	"heat generation" 7.1
+	"apocalypse spine" -1
+	weapon
+		sprite "sprite/devastator"
+		sound "final explosion small"
+		"fire effect" "devastator fire1" 2
+		"fire effect" "devastator fire2"
+		"hit effect" "devastator hit1"
+		"hit effect" "devastator hit2" 4
+		"hit effect" "devastator hit3"
+		"die effect" "devastator fire1" 3
+		safe
+		lifetime 90
+		"random lifetime" -90
+		velocity 80
+		"random velocity" -80
+		inaccuracy 3.5
+		"firing energy" 38
+		"firing fuel" .13
+		"firing heat" 329
+		reload 2
+		"blast radius" 400
+		"hit force" 10
+		"shield damage" 87
+		"hull damage" 116
+		"heat damage" 260
+
+effect "devastator fire1"
+	sprite sprite/devastator_fire1
+		"frame rate" 30
+		"no repeat"
+	lifetime 10
+	"velocity scale" 1
+	"random velocity" 20
+	"random angle" 360
+	"random frame rate" 10
+
+effect "devastator fire2"
+	sprite sprite/devastator_fire2
+		"frame rate" 60
+		"no repeat"
+	lifetime 3
+	"velocity scale" 1
+	"random angle" 360
+	"random frame rate" 10
+
+effect "devastator hit1"
+	sprite sprite/devastator_hit1
+		"frame rate" 60
+	lifetime 3
+	"velocity scale" .3
+	"random angle" 360
+
+effect "devastator hit2"
+	sprite effect/explosion/huge
+		"frame rate" 60
+		"no repeat"
+	lifetime 9
+	"velocity scale" .2
+	"random velocity" 20
+	"random angle" 360
+	"random spin" 5
+
+effect "devastator hit3"
+	sprite sprite/devastator_hit3
+		"frame rate" 60
+		"no repeat"
+	lifetime 4
+	"velocity scale" .25

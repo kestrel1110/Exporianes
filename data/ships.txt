@@ -1147,11 +1147,11 @@ ship "saventi 1250"
 			"hull damage" 100
 			"hit force" 1000
 	outfits
-		"Zyr'c Light Laser Turret"
+		"Zyr'c Light Laser"
 		"Exporiane Engines"
 		"Zyr'c Control Center"
 	engine 0 91.5
-	turret 0 -49.5
+	gun 0 -49.5
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "large explosion" 45

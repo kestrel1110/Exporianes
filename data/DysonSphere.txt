@@ -4,8 +4,8 @@ ship "Dyson Sphere"
 	attributes
 		category "Heavy Warship"
 		"cost" 650000000000000
-		"shields" 2853430000
-		"hull" 1450676000
+		"shields" 28534300
+		"hull" 14506760
 		"required crew" 40000
 		"bunks" 120000
 		"mass" 13600000
@@ -39,7 +39,7 @@ ship "Dyson Sphere"
 		"Stellar Engine" 2
 		"Matrioshka Brain"
 		"Shkadov Thruster"
-		"Gravitational Proximity Field"
+		"Gravitational Proximity Radius"
 		"Starbolt Gun" 9
 		"Dyson Warp Engine"
 		"Nanobot Manufaturing Unit" 20
@@ -102,7 +102,7 @@ ship "Dyson Sphere"
 	bay "Drone" 666.5 -1514.5
 	bay "Drone" -421.5 -1632
 	bay "Drone" 421.5 -1632
-	turret 0 0 "Gravitational Proximity Field"
+	turret 0 0 "Gravitational Proximity Radius"
 	bay "Drone" -970.5 1328
 	bay "Drone" 970.5 1328
 	bay "Drone" -1194.5 1178.5
@@ -153,23 +153,23 @@ outfit "Sunblaster Turret"
 	"turret mounts" -1
 	"spinal turret mount" -1
 	weapon
-		sprite "projectile/sunblast"
+		sprite "effect/solarjump"
 		"lifetime" 1
+		sound "fire"
 		"hit effect" "solarjump"
 		"submunition" "Sunblast Residue" 40
 		"shield damage" 400
 		"hull damage" 270
 		"heat damage" 270
 		"inaccuracy" 3.5
-		"homing" 100
-		"turn" 10000
+		sound "fire-lance"
 		"drag" .0001
 		"velocity" 10
 		reload 0.1
 		
 outfit "Sunblast Residue"
 	weapon
-		sprite "projectile/sunblast"
+		sprite "effect/solarjump"
 			"frame rate" 1.5
 			"random start frame"
 		"lifetime" 600
@@ -178,7 +178,11 @@ outfit "Sunblast Residue"
 		"hull damage" 27
 		"inaccuracy" 3.5
 		"homing" 100
+		"infrared tracking" 100
+		"radar tracking" 100
+		"optical tracking" 100
 		"turn" 1000
+		sound "fire-lance"
 		"drag" .0001
 		"velocity" 15	
 
@@ -212,7 +216,7 @@ outfit "Matrioshka Brain"
 outfit "Shield Generation Unit"
 	category "Systems"
 	mass 20
-	outfit space -10
+	"outfit space" -10
 	"shield generation" 8.3
 	"shield energy" 2.3
 	"shield heat" 1.2
@@ -220,7 +224,7 @@ outfit "Shield Generation Unit"
 outfit "Nanobot Manufaturing Unit"
 	category "Systems"
 	mass 20
-	outfit space -10
+	"outfit space" -10
 	"hull repair rate" 4.8
 	"hull energy" 1.8
 	"hull heat" 1.2
@@ -265,7 +269,7 @@ outfit "Shkadov Thruster"
 	"outfit space" -360600
 	drag -12
 
-outfit "Gravitational Proximity Field"
+outfit "Gravitational Proximity Radius"
 	category "Turrets"
 	cost 10000000
 	thumbnail "outfit/unknown"
@@ -299,7 +303,7 @@ outfit "Starbolt Gun"
 	"rim mount" -1
 	weapon
 		sprite "projectile/juice"
-		sound "pwave"
+		sound "starbolt"
 		"hardpoint sprite" "hardpoint/pwavehp"
 		"hardpoint offset" 11
 		"fire effect" "lightning flare"
@@ -399,7 +403,7 @@ person "Kestrel1110"
 		plunders coward
 	phrase
 		word
-			"Get a high combat rating, quick, and secrets will unveil in the Rim..."
+			"Get a high combat rating, and secrets will unveil in the Rim..."
 	ship "Dyson Sphere" "Integrity"
 	ship "crazbele 3500" "Swarm 01"
 	ship "saventi 1250" "Swarm 02"

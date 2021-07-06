@@ -1418,7 +1418,7 @@ system Khalchrade
 	fleet "Ixkek Guardian" 1000
 	fleet "Zyr'c War" 750
 	object
-		sprite star/wrGOLD
+		sprite star/wr
 		period 10
 	object Ixkek
 		sprite planet/exp_Ixkek
@@ -1426,7 +1426,7 @@ system Khalchrade
 		period 69
 	object "Junction Wormhole"
 		sprite planet/wormholered
-		distance 3079.28
+		distance 1079.28
 		period 17000
 
 system Khazama
@@ -3065,13 +3065,16 @@ planet Everest
 	outfitter Ixkek
 
 planet "Exporiane Wormhole"
+	music "ambient/Bereskatuket ES Theme"
+	government "Exporiane Wormhole"
+
+planet "Link Wormhole"
+	music "ambient/Bereskatuket ES Theme"
 	government "Exporiane Wormhole"
 
 planet "Junction Wormhole"
-	government "Junction Wormhole"
-
-planet "Link Wormhole"
-	government "Junction Wormhole"
+	music "ambient/Bereskatuket ES Theme"
+	government "Exporiane Wormhole"
 
 planet Foxtrot
 	attributes ixkek exporiane
@@ -3149,3 +3152,4 @@ planet Zyr'c
 	spaceport `The Zyr'c stare at you as you walk by, but there is no rudeness meant, just curiosity.`
 	shipyard "Zyr'c Large"
 	outfitter Zyr'c
+
