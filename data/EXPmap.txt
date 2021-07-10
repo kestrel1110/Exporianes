@@ -3009,6 +3009,11 @@ planet Alpha
 	shipyard "Ixkek Medium"
 	outfitter Ixkek
 
+planet Ana'ii'pug
+	landscape land/Zscene3
+	description "As they have done with several other species, the Pug have taken a small group of Exporianes that were peaceful towards each other, and have placed them on this planet should the case arise that the Zyr'c and Ixkek should wipe themselves out as with the sheragi."
+	spaceport "A freindly Exporiane greets you as you leave your ship as he begins attaching fuel hoses to the deuterium ports. The planet is beutiful, and strangely peaceful for a race that is currently in a civil war."
+
 planet Bravo
 	attributes ixkek exporiane
 	landscape land/loc2
@@ -3152,4 +3157,3 @@ planet Zyr'c
 	spaceport `The Zyr'c stare at you as you walk by, but there is no rudeness meant, just curiosity.`
 	shipyard "Zyr'c Large"
 	outfitter Zyr'c
-
