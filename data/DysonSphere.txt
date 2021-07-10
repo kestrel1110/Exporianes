@@ -398,7 +398,7 @@ planet Everything
 
 person "Kestrel1110"
 	government "Author"
-	frequency 300
+	frequency 3000
 	personality
 		plunders coward
 	phrase
