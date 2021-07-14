@@ -27,6 +27,8 @@ category "bay type"
 	"Breakaway"
 	"Drone"
 	"Fighter"
+	"Chenha"
+	"Enzan"
 
 
 # Outfits of these types can be bought and sold via the outfitter.	
