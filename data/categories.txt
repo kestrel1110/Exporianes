@@ -20,6 +20,8 @@ category "ship"
 	"Breakaway"
 	"Fighter"
 	"Drone"
+	"Chenha"
+	"Enzan"
 
 
 # Ships of these types are able to be carried by other ships.
