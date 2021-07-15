@@ -384,7 +384,7 @@ outfit "Ixkek Flameblaster"
 		
 
 outfit "Ixkek Wormhole Gun"
-	category "Secondary Weapons"
+	category "Superweapons"
 	cost 1500000000
 	thumbnail "outfit/iwg"
 	"mass" 176
