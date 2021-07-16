@@ -1422,7 +1422,7 @@ system Principium
 	hazard "Black Hole Gravity" 1
 	hazard "Black Hole Event Horizon" 1
 	hazard "Black Hole Accretion Disk" 1
-	object
+	object "Infernalis Verticis"
 		sprite star/black-hole-core
 		period 1
 		arrival 2000
