@@ -1245,11 +1245,19 @@ system Kentro
 	hazard "Black Hole Event Horizon" 1
 	hazard "Black Hole Accretion Disk" 1
 	object "Infernalis Verticis"
-		sprite "star/black-hole-core"
+		sprite star/black-hole-core
 		period 1
+		arrival 2000
+		hazard "Black Hole Gravity" 1
+		hazard "Black Hole Event Horizon" 1
+		hazard "Black Hole Accretion Disk" 1
 	object
-		sprite "star/black-hole"
+		sprite star/black-hole
 		period 1
+		arrival 2000
+		hazard "Black Hole Gravity" 1
+		hazard "Black Hole Event Horizon" 1
+		hazard "Black Hole Accretion Disk" 1
 
 system Kha'lin'pug
 	pos -24097.1 -23967.4
