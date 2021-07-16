@@ -1,5 +1,5 @@
 ship "Lux Draconis"
-	sprite "ship/dragon"
+	sprite "ship/luxcelestis/dragon"
 	noun "ghost ship"
 	attributes
 		category "Wraith"
@@ -7,7 +7,6 @@ ship "Lux Draconis"
 		"shields" 1500000000
 		"hull" 800000000
 		"required crew" 1
-		"automaton" 01200
 		"bunks" 234
 		"mass" 870
 		"drag" 3
@@ -67,7 +66,7 @@ ship "Lux Draconis"
 	description "[error: cannot decrypt]"
 
 ship "Infernis Aeternam"
-	sprite "ship/charlie"
+	sprite "ship/luxcelestis/charlie"
 	noun "ghost ship"
 	attributes
 		category "Heavy Warship"
@@ -75,7 +74,6 @@ ship "Infernis Aeternam"
 		"shields" 1250000000
 		"hull" 700000000
 		"required crew" 65
-		"automaton" 0
 		"bunks" 210
 		"mass" 500
 		"drag" 3
@@ -245,7 +243,7 @@ ship "Infernis Aeternam"
 	description "[error: cannot decrypt]"
 
 ship "Ignis Perpetuam"
-	sprite "ship/bravo"
+	sprite "ship/luxcelestis/bravo"
 	noun "ghost ship"
 	attributes
 		category "Medium Warship"
@@ -253,7 +251,6 @@ ship "Ignis Perpetuam"
 		"shields" 1000000000
 		"hull" 650000000
 		"required crew" 43
-		"automaton" 0
 		"bunks" 167
 		"mass" 423
 		"drag" 3
@@ -364,7 +361,7 @@ ship "Ignis Perpetuam"
 	description "[error: cannot decrypt]"
 
 ship "Incendium Immortalis"
-	sprite "ship/alpha"
+	sprite "ship/luxcelestis/alpha"
 	noun "ghost ship"
 	attributes
 		category "Light Warship"
@@ -372,7 +369,6 @@ ship "Incendium Immortalis"
 		"shields" 800000000
 		"hull" 420000000
 		"required crew" 28
-		"automaton" 0
 		"bunks" 98
 		"mass" 345
 		"drag" 3
