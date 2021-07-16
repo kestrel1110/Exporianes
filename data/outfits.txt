@@ -203,7 +203,8 @@ outfit "Ixkek Light Laser Turret"
 		"firing energy" 1.5
 		"firing heat" 2.7
 		"shield damage" 23
-		"hull damage" 22
+		"hull damage" 32
+		"piercing" .4
 outfit "Ixkek Heavy Laser Turret"
 	category "Turrets"
 	cost 4100000
@@ -229,7 +230,8 @@ outfit "Ixkek Heavy Laser Turret"
 		"firing energy" 3.0
 		"firing heat" 5.4
 		"shield damage" 69
-		"hull damage" 66
+		"hull damage" 96
+		"piercing" .4
 outfit "Exporiane Engines"
 	category "Engines"
 	"cost" 8600000
@@ -251,12 +253,13 @@ outfit "Zyr'c Control Center"
 	thumbnail "outfit/econtrol"
 	"mass" 267
 	"outfit space" -267
-	"shield generation" 120.3
+	"shield generation" 1200.3
 	"shield energy" 20.3
-	"hull repair rate" 40.8
+	"hull repair rate" 400.8
 	"hull energy" 10.8
 	"hull heat" 1.2
-	"energy generation" 80
+	"energy generation" 800
+	"energy capacity" 60000
 	"ramscoop" 100
 	"radar jamming" 50
 	"outfit scan power" 160
@@ -270,8 +273,8 @@ outfit "Zyr'c Control Center"
 	"tactical scan power" 320
 	"capture defense" 100
 	"unplunderable" 1
-	"shields" 100000
-	"hull" 100000
+	"shields" 1000000
+	"hull" 1000000
 
 outfit "Zyr'c Attractor Turret"
 	category "Secondary Weapons"
@@ -384,7 +387,7 @@ outfit "Ixkek Flameblaster"
 		
 
 outfit "Ixkek Wormhole Gun"
-	category "Superweapons"
+	category "Secondary Weapons"
 	cost 1500000000
 	thumbnail "outfit/iwg"
 	"mass" 176
@@ -504,25 +507,25 @@ outfit "Ixkek Tiny Modular Control Center"
 	
 outfit "Ixkek Shield Generator Module"
 	category "Systems"
-	"shield generation" 60
+	"shield generation" 600
 	"shield energy" 10
-	"shields" 50000
+	"shields" 500000
 	"Ixkek Control Center Module" -1
 	"unplunderable" 1
 	cost 5000000
 	
 outfit "Ixkek Nanobot Module"
 	category "Systems"
-	"hull repair rate" 60
+	"hull repair rate" 600
 	"hull energy" 10
-	"hull" 50000
+	"hull" 500000
 	"Ixkek Control Center Module" -1
 	"unplunderable" 1
 	cost 5000000
 	
 outfit "Ixkek Generator Module"
 	category "Systems"
-	"energy generation" 40
+	"energy generation" 400
 	"Ixkek Control Center Module" -1
 	"unplunderable" 1
 	cost 5000000
@@ -579,4 +582,3 @@ outfit "Ixkek Pressure Shielding Module"
 	"Ixkek Pressure Module" -1
 	"unplunderable" 1
 	cost 5000000
-	
