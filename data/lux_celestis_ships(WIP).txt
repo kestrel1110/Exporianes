@@ -1,6 +1,29 @@
 ship "Lux Draconis"
-#Dragon Positions
-#(noun entity)
+	sprite "ship/dragon"
+	noun "ghost ship"
+	attributes
+		category "Wraith"
+		"cost" 430000000
+		"shields" 1500000000
+		"hull" 800000000
+		"required crew" 1
+		"automaton" 0
+		"bunks" 234
+		"mass" 870
+		"drag" 3
+		"heat dissipation" .6
+		"fuel capacity" 900
+		"cargo space" 250
+		"outfit space" 2500
+		"weapon capacity" 1000
+		"engine capacity" 500
+		weapon
+			"blast radius" 23000000
+			"shield damage" 230000000
+			"hull damage" 115000000
+			"hit force" 345000000
+	outfits
+
 	gun 0 -198.5
 	gun -43.5 -112.5
 	gun 43.5 -112.5
@@ -36,6 +59,13 @@ ship "Lux Draconis"
 		zoom 1
 		angle 0
 		under
+	explode "pug small explosion" 25
+	explode "pug medium explosion" 30
+	explode "pug large explosion" 20
+	explode "pug huge explosion" 5
+	"final explode" "final explosion large"
+	description "[error: cannot decrypt]"
+
 ship "Infernis Aeternam"
 #Charlie Positions
 #(noun ghost ship)
