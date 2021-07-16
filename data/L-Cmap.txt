@@ -8,7 +8,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-galaxy ""Lux Celestis" Galaxy"
+galaxy "Lux Celestis Galaxy"
 	pos 64000 -4500
 	sprite ui/galaxy1
 
@@ -1413,7 +1413,7 @@ system R9
 			distance 248
 			period 12.9875
 
-system X
+system Principium
 	pos 64010 -4496
 	government Uninhabited
 	habitable 10000
