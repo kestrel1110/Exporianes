@@ -417,12 +417,13 @@ outfit "Ixkek Wormhole Gun"
 		"firing heat" 20000
 		"firing force" 4200
 		"hit force" 9000
-		"shield damage" 210000
-		"hull damage" 180000
+		"relative shield damage" 10
+		"relative hull damage" 1.434782609
 		"heat damage" 250000
+		"disruption damage" 2500
 		"fuel damage" 200
 		"piercing" 0.69
-		"blast radius" 550
+		"blast radius" 1000
 		safe
 	description "The Ixkek Wormole Gun is a extremely valuable artifact. It is a mechanism that creates two parallel unstable wormholes, and draws dimensional energy from them. This energy is then stored up in specialized battery banks until it forms dimensional plasma. After that plasma has formed, the gun can fire. When firing, it concentrates all the stored energy into a beam of amazing power. Another thing the gun does is give room for extra storage, as 200 tons of outfits may be stored in the wormhole not being used to fire."
 	
