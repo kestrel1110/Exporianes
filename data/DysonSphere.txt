@@ -388,17 +388,15 @@ outfitter DYSON
 shipyard DYSON
 	"Dyson Sphere"
 planet Forge
-	outfitter DYSON
 	shipyard DYSON
 planet Everything
-	outfitter DYSON
 	shipyard DYSON
 
 
 
 person "Kestrel1110"
 	government "Author"
-	frequency 3000
+	frequency 75
 	personality
 		plunders coward
 	phrase
