@@ -594,6 +594,7 @@ outfit "Ghost Cloak"
 	"cloaking fuel" .2
 	"cloaking visibility" .5
 	"cloaking phasing"
+	"cloaked action" .000001
 	"cloak" .1
 	"unplunderable" 1
 	description "You're sure the cloaking device is here somewhere, but you can't see it."
