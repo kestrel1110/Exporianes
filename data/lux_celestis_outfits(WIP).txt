@@ -72,6 +72,12 @@ outfit "Centrum Potestae"
 	"reverse thrust" 44.8
 	"reverse thrusting energy" 4.9
 	"reverse thrusting heat" 13.3
+	cloak .05
+	"cloaked firing" -1
+	"cloak by mass" 10
+	"cloaked action"
+	"cloak phasing" .75
+	"permanent cloak" .5
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
